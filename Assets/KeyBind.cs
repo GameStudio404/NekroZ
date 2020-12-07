@@ -2,73 +2,99 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System;
 
 public class KeyBind : MonoBehaviour
 {
-    InputManager inputManager;
-    public GameObject keyItemPrefab;
-    public GameObject keyList;
-    string buttonToRebind = null;
-    Dictionary<string, Text> buttonToLabel;
+
+    private Dictionary<string, KeyCode> keys = new Dictionary<string, KeyCode>();
+    public Text left, right, up, down, jump, inventory, interact;
+    private GameObject currentKey;
+    private Color32 normal = new Color32(39, 171, 249, 255);
+    private Color32 selected = new Color32(239, 116, 36, 255);
 
     // Start is called before the first frame update
     void Start()
     {
-        inputManager = GameObject.FindObjectOfType<InputManager>();
-        buttonToLabel = new Dictionary<string, Text>();
+        keys.Add("Left", KeyCode.Q);
+        keys.Add("Right", KeyCode.D);
+        keys.Add("Up", KeyCode.Z);
+        keys.Add("Down", KeyCode.S);
+        keys.Add("Jump", KeyCode.Space);
+        keys.Add("Inventory", KeyCode.A);
+        keys.Add("Interact", KeyCode.E);
 
-        //create one Button (ex : keyLeft) per button in inputManager
-        string[] buttonNames = inputManager.GetButtonNames();
-        
-        for (int i = 0; i < buttonNames.Length; i++)
-        {
-            string bn;
-            bn = buttonNames[i];
+        up.text = keys["Up"].ToString();
+        down.text = keys["Down"].ToString();
+        left.text = keys["Left"].ToString();
+        right.text = keys["Right"].ToString();
+        jump.text = keys["Jump"].ToString();
+        inventory.text = keys["Inventory"].ToString();
+        interact.text = keys["Interact"].ToString();
 
-            GameObject go = (GameObject)Instantiate(keyItemPrefab);
-           // go.transform.SetParent(keyList.transform);
-            go.transform.localScale = Vector3.one;
-            Text buttonNameText = go.transform.Find("keyLeft").GetComponent<Text>();
-            buttonNameText.text = bn;
-            Debug.Log(go.transform.Find("keyLeft/KeyName").GetComponent<Text>());
-            Text keyNameText = go.transform.Find("keyLeft/KeyName").GetComponent<Text>();
-            keyNameText.text = inputManager.GetKeyNameForButton(bn);
-            buttonToLabel[bn] = keyNameText;
-            Button keyBindButton = go.transform.Find("keyLeft").GetComponent<Button>();
-            keyBindButton.onClick.AddListener(() => { StartRebindFor(bn); });
-        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (buttonToRebind != null)
+        if (Input.GetKeyDown(keys["Up"]))
         {
-            if (Input.anyKeyDown)
-            {
-                // which key was press down ?
+            // Do a move
+            Debug.Log("Up");
+        }
+        if (Input.GetKeyDown(keys["Down"]))
+        {
+            // Do a move
+            Debug.Log("Down");
+        }
+        if (Input.GetKeyDown(keys["Left"]))
+        {
+            // Do a move
+            Debug.Log("Left");
+        }
+        if (Input.GetKeyDown(keys["Right"]))
+        {
+            // Do a move
+            Debug.Log("Right");
+        }
+        if (Input.GetKeyDown(keys["Jump"]))
+        {
+            // Do a move
+            Debug.Log("Jump");
+        }
+        if (Input.GetKeyDown(keys["Inventory"]))
+        {
+            // Do a move
+            Debug.Log("Inventory");
+        }
+        if (Input.GetKeyDown(keys["Interact"]))
+        {
+            // Do a move
+            Debug.Log("Interact");
+        }
+    }
 
-                // Loop through all possible keys and see if it was pressed down
-                foreach (KeyCode kc in Enum.GetValues(typeof(KeyCode)))
-                {
-                    if (Input.GetKeyDown(kc))
-                    {
-                        // Yes !
-                        inputManager.SetButtonForKey(buttonToRebind, kc);
-                        buttonToLabel[buttonToRebind].text = kc.ToString();
-                        buttonToRebind = null; // We stop rebinding keys
-                        break;
-                    }
-                }
+    void OnGUI()
+    {
+        if (currentKey != null)
+        {
+            Event e = Event.current;
+            if (e.isKey)
+            {
+                keys[currentKey.name] = e.keyCode;
+                currentKey.transform.GetChild(0).GetComponent<Text>().text = e.keyCode.ToString();
+                currentKey.GetComponent<Image>().color = normal;
+                currentKey = null;
             }
         }
     }
 
-    void StartRebindFor(string buttonName)
+    public void ChangeKey(GameObject clicked)
     {
-        Debug.Log("Start rebind for: " + buttonName);
-
-        buttonToRebind = buttonName;
+        if (currentKey != null)
+        {
+            currentKey.GetComponent<Image>().color = normal;
+        }
+        currentKey = clicked;
+        currentKey.GetComponent<Image>().color = selected;
     }
 }
