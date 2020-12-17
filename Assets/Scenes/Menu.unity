@@ -1347,13 +1347,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11cab34e2bf0198419ec3853b0625cda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  left: {fileID: 0}
-  right: {fileID: 0}
-  up: {fileID: 0}
-  down: {fileID: 0}
-  jump: {fileID: 0}
-  inventory: {fileID: 0}
-  interact: {fileID: 0}
+  left: {fileID: 1936134248}
+  right: {fileID: 373940077}
+  up: {fileID: 2088014969}
+  down: {fileID: 1707296333}
+  jump: {fileID: 1220766654}
+  inventory: {fileID: 853123226}
+  interact: {fileID: 1873581244}
 --- !u!1 &386973243
 GameObject:
   m_ObjectHideFlags: 0
