@@ -12,6 +12,10 @@ public class KeyBind : MonoBehaviour
     private Color32 normal = new Color32(18, 40, 77, 255);
     private Color32 selected = new Color32(255, 217, 102, 255);
 
+    public void SaveKeys() 
+    {
+        Debug.Log(keys);
+    }
     // Start is called before the first frame update
     void Start()
     {
