@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class KeyBind : MonoBehaviour
 {
 
     private Dictionary<string, KeyCode> keys = new Dictionary<string, KeyCode>();
-    public Text left, right, up, down, jump, inventory, interact;
+    public TextMeshProUGUI left, right, up, down, jump, inventory, interact;
     private GameObject currentKey;
     private Color32 normal = new Color32(18, 40, 77, 255);
     private Color32 selected = new Color32(255, 217, 102, 255);
@@ -85,7 +86,7 @@ public class KeyBind : MonoBehaviour
             if (e.isKey)
             {
                 keys[currentKey.name] = e.keyCode;
-                currentKey.transform.GetChild(0).GetComponent<Text>().text = e.keyCode.ToString();
+                currentKey.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = e.keyCode.ToString();
                 currentKey.GetComponent<Image>().color = normal;
                 currentKey = null;
             }
