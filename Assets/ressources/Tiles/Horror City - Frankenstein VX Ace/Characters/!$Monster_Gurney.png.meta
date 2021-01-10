@@ -1,0 +1,716 @@
+fileFormatVersion: 2
+guid: 69c5580297abb1c48bc59cd08651e659
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4658013316497587644
+    second: '!$Monster_Gurney_0'
+  - first:
+      213: -8910301501260249029
+    second: '!$Monster_Gurney_1'
+  - first:
+      213: -5695574675016181810
+    second: '!$Monster_Gurney_2'
+  - first:
+      213: 7298910802671742281
+    second: '!$Monster_Gurney_3'
+  - first:
+      213: -5765138347364747483
+    second: '!$Monster_Gurney_4'
+  - first:
+      213: -7966079932745924361
+    second: '!$Monster_Gurney_5'
+  - first:
+      213: -744974281984433552
+    second: '!$Monster_Gurney_6'
+  - first:
+      213: 83383454943482892
+    second: '!$Monster_Gurney_7'
+  - first:
+      213: 7079933263672088426
+    second: '!$Monster_Gurney_8'
+  - first:
+      213: -2644606953936235863
+    second: '!$Monster_Gurney_9'
+  - first:
+      213: 1937395589582466737
+    second: '!$Monster_Gurney_10'
+  - first:
+      213: -6071049803976472901
+    second: '!$Monster_Gurney_11'
+  - first:
+      213: 5294880007379950154
+    second: '!$Monster_Gurney_12'
+  - first:
+      213: -2083986137579517006
+    second: '!$Monster_Gurney_13'
+  - first:
+      213: -1132733603656486625
+    second: '!$Monster_Gurney_14'
+  - first:
+      213: 1625765974319481304
+    second: '!$Monster_Gurney_15'
+  - first:
+      213: -3433490000821480967
+    second: '!$Monster_Gurney_16'
+  - first:
+      213: -8442496663396101236
+    second: '!$Monster_Gurney_17'
+  - first:
+      213: 2615508029318251129
+    second: '!$Monster_Gurney_18'
+  - first:
+      213: 3503728910682534655
+    second: '!$Monster_Gurney_19'
+  - first:
+      213: 1287186256667206197
+    second: '!$Monster_Gurney_20'
+  - first:
+      213: -3011915272006149051
+    second: '!$Monster_Gurney_21'
+  - first:
+      213: -4806661618415095508
+    second: '!$Monster_Gurney_22'
+  - first:
+      213: -3511045811627434045
+    second: '!$Monster_Gurney_23'
+  - first:
+      213: 5368362410659413451
+    second: '!$Monster_Gurney_24'
+  - first:
+      213: 6034107934305852148
+    second: '!$Monster_Gurney_25'
+  - first:
+      213: -3271220533774522135
+    second: '!$Monster_Gurney_26'
+  - first:
+      213: 6792159948635862590
+    second: '!$Monster_Gurney_27'
+  - first:
+      213: 884687425311218760
+    second: '!$Monster_Gurney_28'
+  - first:
+      213: 2885865221821288203
+    second: '!$Monster_Gurney_29'
+  - first:
+      213: 9082570474937983666
+    second: '!$Monster_Gurney_30'
+  - first:
+      213: 4089324839165738970
+    second: '!$Monster_Gurney_31'
+  - first:
+      213: -9166668653301864986
+    second: '!$Monster_Gurney_32'
+  - first:
+      213: -459727738927675511
+    second: '!$Monster_Gurney_33'
+  - first:
+      213: 7047480031989579916
+    second: '!$Monster_Gurney_34'
+  - first:
+      213: 9051080606297205925
+    second: '!$Monster_Gurney_35'
+  - first:
+      213: 2489259370218177160
+    second: '!$Monster_Gurney_36'
+  - first:
+      213: -3975171820245478815
+    second: '!$Monster_Gurney_37'
+  - first:
+      213: 4417798353189589101
+    second: '!$Monster_Gurney_38'
+  - first:
+      213: -7923043727617195001
+    second: '!$Monster_Gurney_39'
+  - first:
+      213: 1120056398996832824
+    second: '!$Monster_Gurney_40'
+  - first:
+      213: -675082335238841601
+    second: '!$Monster_Gurney_41'
+  - first:
+      213: -8555410623518809742
+    second: '!$Monster_Gurney_42'
+  - first:
+      213: -7426743058894519166
+    second: '!$Monster_Gurney_43'
+  - first:
+      213: 3077064259511340422
+    second: '!$Monster_Gurney_44'
+  - first:
+      213: 5661911366674931673
+    second: '!$Monster_Gurney_45'
+  - first:
+      213: 9078024928752636805
+    second: '!$Monster_Gurney_46'
+  - first:
+      213: 8866531586467165786
+    second: '!$Monster_Gurney_47'
+  - first:
+      213: -5672360809294943224
+    second: '!$Monster_Gurney_48'
+  - first:
+      213: -877248542114025962
+    second: '!$Monster_Gurney_49'
+  - first:
+      213: 4678592373221648311
+    second: '!$Monster_Gurney_50'
+  - first:
+      213: -7750096828409545642
+    second: '!$Monster_Gurney_51'
+  - first:
+      213: -2604440500561732547
+    second: '!$Monster_Gurney_52'
+  - first:
+      213: -1646632573951070424
+    second: '!$Monster_Gurney_53'
+  - first:
+      213: 647019184384389294
+    second: '!$Monster_Gurney_54'
+  - first:
+      213: 43842991591650167
+    second: '!$Monster_Gurney_55'
+  - first:
+      213: -3684764419428445632
+    second: '!$Monster_Gurney_56'
+  - first:
+      213: 5484676111349795260
+    second: '!$Monster_Gurney_57'
+  - first:
+      213: 3250439493037585935
+    second: '!$Monster_Gurney_58'
+  - first:
+      213: -8685545478179321773
+    second: '!$Monster_Gurney_59'
+  - first:
+      213: -3311920133963028075
+    second: '!$Monster_Gurney_60'
+  - first:
+      213: 2355553547306668393
+    second: '!$Monster_Gurney_61'
+  - first:
+      213: -1513831846656302265
+    second: '!$Monster_Gurney_62'
+  - first:
+      213: 8522440637679257974
+    second: '!$Monster_Gurney_63'
+  - first:
+      213: 1897760299371399125
+    second: '!$Monster_Gurney_64'
+  - first:
+      213: 4927202403517462715
+    second: '!$Monster_Gurney_65'
+  - first:
+      213: 843970423877537336
+    second: '!$Monster_Gurney_66'
+  - first:
+      213: 7624224333951871694
+    second: '!$Monster_Gurney_67'
+  - first:
+      213: 1690038737608972804
+    second: '!$Monster_Gurney_68'
+  - first:
+      213: -8524417092148268709
+    second: '!$Monster_Gurney_69'
+  - first:
+      213: -6523226580500283516
+    second: '!$Monster_Gurney_70'
+  - first:
+      213: -2698949813255956160
+    second: '!$Monster_Gurney_71'
+  - first:
+      213: 2268256592025324116
+    second: '!$Monster_Gurney_72'
+  - first:
+      213: 1285433995699641929
+    second: '!$Monster_Gurney_73'
+  - first:
+      213: -3371650726820614125
+    second: '!$Monster_Gurney_74'
+  - first:
+      213: -5084721208057315384
+    second: '!$Monster_Gurney_75'
+  - first:
+      213: 6092422743200922174
+    second: '!$Monster_Gurney_76'
+  - first:
+      213: -6257795459913044031
+    second: '!$Monster_Gurney_77'
+  - first:
+      213: -4496251582921001639
+    second: '!$Monster_Gurney_78'
+  - first:
+      213: 5868360364508563908
+    second: '!$Monster_Gurney_79'
+  - first:
+      213: 7114974175183164466
+    second: '!$Monster_Gurney_80'
+  - first:
+      213: 946280542721225093
+    second: '!$Monster_Gurney_81'
+  - first:
+      213: -1167863448768222376
+    second: '!$Monster_Gurney_82'
+  - first:
+      213: -7589166061935349134
+    second: '!$Monster_Gurney_83'
+  - first:
+      213: 9087318347575381482
+    second: '!$Monster_Gurney_84'
+  - first:
+      213: -1340247437727941686
+    second: '!$Monster_Gurney_85'
+  - first:
+      213: 7069498436653994888
+    second: '!$Monster_Gurney_86'
+  - first:
+      213: -6917372956822868165
+    second: '!$Monster_Gurney_87'
+  - first:
+      213: -7343126206167096103
+    second: '!$Monster_Gurney_88'
+  - first:
+      213: -9027731769830095503
+    second: '!$Monster_Gurney_89'
+  - first:
+      213: 2716756014348232995
+    second: '!$Monster_Gurney_90'
+  - first:
+      213: 5196910409918243916
+    second: '!$Monster_Gurney_91'
+  - first:
+      213: -4731921101147099362
+    second: '!$Monster_Gurney_92'
+  - first:
+      213: 3427144511898436421
+    second: '!$Monster_Gurney_93'
+  - first:
+      213: -7453746334743842187
+    second: '!$Monster_Gurney_94'
+  - first:
+      213: -6891300358281678646
+    second: '!$Monster_Gurney_95'
+  - first:
+      213: -4213813467259513483
+    second: '!$Monster_Gurney_96'
+  - first:
+      213: 7160450028989701334
+    second: '!$Monster_Gurney_97'
+  - first:
+      213: -4202693894846688410
+    second: '!$Monster_Gurney_98'
+  - first:
+      213: 6769377225667255424
+    second: '!$Monster_Gurney_99'
+  - first:
+      213: 3323230548010174444
+    second: '!$Monster_Gurney_100'
+  - first:
+      213: -8954214406967002914
+    second: '!$Monster_Gurney_101'
+  - first:
+      213: -5594200835609987719
+    second: '!$Monster_Gurney_102'
+  - first:
+      213: -6110918498079629572
+    second: '!$Monster_Gurney_103'
+  - first:
+      213: 3536444120717629611
+    second: '!$Monster_Gurney_104'
+  - first:
+      213: 1606423358313663516
+    second: '!$Monster_Gurney_105'
+  - first:
+      213: 6182994217252091540
+    second: '!$Monster_Gurney_106'
+  - first:
+      213: 7528298754485029059
+    second: '!$Monster_Gurney_107'
+  - first:
+      213: 1935564038130547891
+    second: '!$Monster_Gurney_0'
+  - first:
+      213: 2440785001584577064
+    second: '!$Monster_Gurney_1'
+  - first:
+      213: 6830057267965210741
+    second: '!$Monster_Gurney_2'
+  - first:
+      213: -2796419888216070351
+    second: '!$Monster_Gurney_3'
+  - first:
+      213: -8086301056175216516
+    second: '!$Monster_Gurney_4'
+  - first:
+      213: -7745825453749811578
+    second: '!$Monster_Gurney_5'
+  - first:
+      213: -4606779359110606278
+    second: '!$Monster_Gurney_6'
+  - first:
+      213: -8363559047082411693
+    second: '!$Monster_Gurney_7'
+  - first:
+      213: 5477267049417799913
+    second: '!$Monster_Gurney_8'
+  - first:
+      213: -2514553552529440086
+    second: '!$Monster_Gurney_9'
+  - first:
+      213: -600773345985598763
+    second: '!$Monster_Gurney_10'
+  - first:
+      213: 8508277086081761993
+    second: '!$Monster_Gurney_11'
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: '!$Monster_Gurney_0'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcbac4dc318cda10800000000000000
+      internalID: 1935564038130547891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Monster_Gurney_1'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82acc80f6096fd120800000000000000
+      internalID: 2440785001584577064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Monster_Gurney_2'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57034a4e5ec39ce50800000000000000
+      internalID: 6830057267965210741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Monster_Gurney_3'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1372b008dee1139d0800000000000000
+      internalID: -2796419888216070351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Monster_Gurney_4'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c786fcf4800b7cf80800000000000000
+      internalID: -8086301056175216516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Monster_Gurney_5'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6864019f9cc418490800000000000000
+      internalID: -7745825453749811578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Monster_Gurney_6'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a325c95a49e6110c0800000000000000
+      internalID: -4606779359110606278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Monster_Gurney_7'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359f5a4db5baeeb80800000000000000
+      internalID: -8363559047082411693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Monster_Gurney_8'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8ff749c59230c40800000000000000
+      internalID: 5477267049417799913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Monster_Gurney_9'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa249ccddd28a1dd0800000000000000
+      internalID: -2514553552529440086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Monster_Gurney_10'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da610a23df99a7f0800000000000000
+      internalID: -600773345985598763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Monster_Gurney_11'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2cf765ee8731670800000000000000
+      internalID: 8508277086081761993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
