@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: bcfb0c77dad778d42aebc44db507522f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1165785543951998785
+    second: Dr Frankenstein Face_0
+  - first:
+      213: 4701739241229201848
+    second: Dr Frankenstein Face_1
+  - first:
+      213: -2883783499543912357
+    second: Dr Frankenstein Face_2
+  - first:
+      213: 8081792579513011185
+    second: Dr Frankenstein Face_3
+  - first:
+      213: 7139035863764997185
+    second: Dr Frankenstein Face_4
+  - first:
+      213: -3663567692638992148
+    second: Dr Frankenstein Face_5
+  - first:
+      213: -5649325333784145076
+    second: Dr Frankenstein Face_6
+  - first:
+      213: -6749987740152010038
+    second: Dr Frankenstein Face_7
+  - first:
+      213: -5169138566979724810
+    second: Dr Frankenstein Face_8
+  - first:
+      213: 4275048958366990721
+    second: Dr Frankenstein Face_9
+  - first:
+      213: -3801037753712179236
+    second: Dr Frankenstein Face_10
+  - first:
+      213: -5632070836087525142
+    second: Dr Frankenstein Face_11
+  - first:
+      213: 729578592600709815
+    second: Dr Frankenstein Face_12
+  - first:
+      213: 6295494525062048932
+    second: Dr Frankenstein Face_13
+  - first:
+      213: -4976109091283218367
+    second: Dr Frankenstein Face_14
+  - first:
+      213: -8746178933299013909
+    second: Dr Frankenstein Face_15
+  - first:
+      213: -2169905901868099968
+    second: Dr Frankenstein Face_16
+  - first:
+      213: 6579177225218485511
+    second: Dr Frankenstein Face_17
+  - first:
+      213: -8384906368177391237
+    second: Dr Frankenstein Face_18
+  - first:
+      213: 932501324964467693
+    second: Dr Frankenstein Face_19
+  - first:
+      213: 7695710291294618645
+    second: Dr Frankenstein Face_20
+  - first:
+      213: 3880360038401630908
+    second: Dr Frankenstein Face_21
+  - first:
+      213: 2819118425897387861
+    second: Dr Frankenstein Face_22
+  - first:
+      213: 6784363462945833997
+    second: Dr Frankenstein Face_23
+  - first:
+      213: 6207568743093141067
+    second: Dr Frankenstein Face_24
+  - first:
+      213: 4011706486540208415
+    second: Dr Frankenstein Face_25
+  - first:
+      213: 7782529372478476320
+    second: Dr Frankenstein Face_26
+  - first:
+      213: 5487456359036858469
+    second: Dr Frankenstein Face_27
+  - first:
+      213: 8351049394865987847
+    second: Dr Frankenstein Face_28
+  - first:
+      213: -8944632626782648080
+    second: Dr Frankenstein Face_29
+  - first:
+      213: 8636347009815455565
+    second: Dr Frankenstein Face_30
+  - first:
+      213: -6861918803533929633
+    second: Dr Frankenstein Face_31
+  - first:
+      213: -2563826340485964609
+    second: Dr Frankenstein Face_32
+  - first:
+      213: 8957652236799858668
+    second: Dr Frankenstein Face_33
+  - first:
+      213: -5910177187473336693
+    second: Dr Frankenstein Face_34
+  - first:
+      213: 8175463131798374699
+    second: Dr Frankenstein Face_35
+  - first:
+      213: 1425942294441994196
+    second: Dr Frankenstein Face_36
+  - first:
+      213: 4173675528521581587
+    second: Dr Frankenstein Face_37
+  - first:
+      213: -3791700673272913442
+    second: Dr Frankenstein Face_38
+  - first:
+      213: -6284484916931719836
+    second: Dr Frankenstein Face_39
+  - first:
+      213: 7138456402899423769
+    second: Dr Frankenstein Face_40
+  - first:
+      213: 6843162106315298773
+    second: Dr Frankenstein Face_41
+  - first:
+      213: -8220283328580733620
+    second: Dr Frankenstein Face_42
+  - first:
+      213: 2991339135624215783
+    second: Dr Frankenstein Face_43
+  - first:
+      213: -955762299726293062
+    second: Dr Frankenstein Face_44
+  - first:
+      213: -3253713871676850096
+    second: Dr Frankenstein Face_45
+  - first:
+      213: -2773427677451602747
+    second: Dr Frankenstein Face_46
+  - first:
+      213: 3898662072860880967
+    second: Dr Frankenstein Face_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dr Frankenstein Face_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0a470793c42dfe0800000000000000
+      internalID: -1165785543951998785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Frankenstein Face_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b13bf3ddeeef3140800000000000000
+      internalID: 4701739241229201848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Frankenstein Face_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b506d84af2ebaf7d0800000000000000
+      internalID: -2883783499543912357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Frankenstein Face_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbc24a288b482070800000000000000
+      internalID: 8081792579513011185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Frankenstein Face_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1449c7a3b43f21360800000000000000
+      internalID: 7139035863764997185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Frankenstein Face_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8c7ad0894682dc0800000000000000
+      internalID: -3663567692638992148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Frankenstein Face_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c435e235a809991b0800000000000000
+      internalID: -5649325333784145076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dr Frankenstein Face_7
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca6ffdc9e93352a0800000000000000
+      internalID: -6749987740152010038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

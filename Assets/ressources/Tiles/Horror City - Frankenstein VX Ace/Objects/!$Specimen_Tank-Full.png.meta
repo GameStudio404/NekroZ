@@ -1,0 +1,500 @@
+fileFormatVersion: 2
+guid: 4e6e4673134801e48be8a3595432c600
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1765081045366213665
+    second: '!$Specimen_Tank-Full_0'
+  - first:
+      213: -1616476114107290804
+    second: '!$Specimen_Tank-Full_1'
+  - first:
+      213: 3651800997015276914
+    second: '!$Specimen_Tank-Full_2'
+  - first:
+      213: -2910843434095109680
+    second: '!$Specimen_Tank-Full_3'
+  - first:
+      213: 6957367491899865248
+    second: '!$Specimen_Tank-Full_4'
+  - first:
+      213: -4357687264203204028
+    second: '!$Specimen_Tank-Full_5'
+  - first:
+      213: 6817057064052263400
+    second: '!$Specimen_Tank-Full_6'
+  - first:
+      213: 8393362474455995275
+    second: '!$Specimen_Tank-Full_7'
+  - first:
+      213: 766694373490803707
+    second: '!$Specimen_Tank-Full_8'
+  - first:
+      213: 2062174858319971141
+    second: '!$Specimen_Tank-Full_9'
+  - first:
+      213: 6892282281311348269
+    second: '!$Specimen_Tank-Full_10'
+  - first:
+      213: 1383656646646850689
+    second: '!$Specimen_Tank-Full_11'
+  - first:
+      213: 3851409362903153067
+    second: '!$Specimen_Tank-Full_12'
+  - first:
+      213: -4146390432676219227
+    second: '!$Specimen_Tank-Full_13'
+  - first:
+      213: 2344966198793937382
+    second: '!$Specimen_Tank-Full_14'
+  - first:
+      213: -7276625014825699990
+    second: '!$Specimen_Tank-Full_15'
+  - first:
+      213: 6190769360232818565
+    second: '!$Specimen_Tank-Full_16'
+  - first:
+      213: -7270092957974476252
+    second: '!$Specimen_Tank-Full_17'
+  - first:
+      213: -4557499140673402765
+    second: '!$Specimen_Tank-Full_18'
+  - first:
+      213: 3381149182964072762
+    second: '!$Specimen_Tank-Full_19'
+  - first:
+      213: 715674133105200053
+    second: '!$Specimen_Tank-Full_20'
+  - first:
+      213: -1025862700140579415
+    second: '!$Specimen_Tank-Full_21'
+  - first:
+      213: 3855917909669642215
+    second: '!$Specimen_Tank-Full_22'
+  - first:
+      213: 4715132201671476968
+    second: '!$Specimen_Tank-Full_23'
+  - first:
+      213: -8316433928498685250
+    second: '!$Specimen_Tank-Full_24'
+  - first:
+      213: -900269545586732114
+    second: '!$Specimen_Tank-Full_25'
+  - first:
+      213: 1742077552540986048
+    second: '!$Specimen_Tank-Full_26'
+  - first:
+      213: 2407046951481892331
+    second: '!$Specimen_Tank-Full_27'
+  - first:
+      213: -8143508517622337337
+    second: '!$Specimen_Tank-Full_28'
+  - first:
+      213: -844520382899313025
+    second: '!$Specimen_Tank-Full_29'
+  - first:
+      213: -5603741863469538382
+    second: '!$Specimen_Tank-Full_30'
+  - first:
+      213: -3732376534706178310
+    second: '!$Specimen_Tank-Full_31'
+  - first:
+      213: -8474770423668285117
+    second: '!$Specimen_Tank-Full_32'
+  - first:
+      213: 176100358645584084
+    second: '!$Specimen_Tank-Full_33'
+  - first:
+      213: 5330310074444448413
+    second: '!$Specimen_Tank-Full_34'
+  - first:
+      213: 6343231858762281739
+    second: '!$Specimen_Tank-Full_35'
+  - first:
+      213: 6228939134826290014
+    second: '!$Specimen_Tank-Full_0'
+  - first:
+      213: 3968749838389877958
+    second: '!$Specimen_Tank-Full_1'
+  - first:
+      213: -5388815759156335322
+    second: '!$Specimen_Tank-Full_2'
+  - first:
+      213: -3544560106194359746
+    second: '!$Specimen_Tank-Full_3'
+  - first:
+      213: 7638790972615260387
+    second: '!$Specimen_Tank-Full_4'
+  - first:
+      213: -2479362939637288155
+    second: '!$Specimen_Tank-Full_5'
+  - first:
+      213: -721113872179771416
+    second: '!$Specimen_Tank-Full_6'
+  - first:
+      213: -5584290408417502792
+    second: '!$Specimen_Tank-Full_7'
+  - first:
+      213: -2988913365523760
+    second: '!$Specimen_Tank-Full_8'
+  - first:
+      213: 8184913228250927422
+    second: '!$Specimen_Tank-Full_9'
+  - first:
+      213: 5861465738792522662
+    second: '!$Specimen_Tank-Full_10'
+  - first:
+      213: -6896235287284315935
+    second: '!$Specimen_Tank-Full_11'
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: '!$Specimen_Tank-Full_0'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b99da0423a17650800000000000000
+      internalID: 6228939134826290014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Specimen_Tank-Full_1'
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc1e9f53f4d31730800000000000000
+      internalID: 3968749838389877958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Specimen_Tank-Full_2'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62da5734e941735b0800000000000000
+      internalID: -5388815759156335322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Specimen_Tank-Full_3'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3aa3410d513fcec0800000000000000
+      internalID: -3544560106194359746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Specimen_Tank-Full_4'
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e87134eaef620a60800000000000000
+      internalID: 7638790972615260387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Specimen_Tank-Full_5'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523b6a9ea88879dd0800000000000000
+      internalID: -2479362939637288155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Specimen_Tank-Full_6'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e74e1ef0c61ef5f0800000000000000
+      internalID: -721113872179771416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Specimen_Tank-Full_7'
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b957abd57d9082b0800000000000000
+      internalID: -5584290408417502792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Specimen_Tank-Full_8'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d26590699165fff0800000000000000
+      internalID: -2988913365523760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Specimen_Tank-Full_9'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31da4f2737a69170800000000000000
+      internalID: 8184913228250927422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Specimen_Tank-Full_10'
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3d9d7b80c185150800000000000000
+      internalID: 5861465738792522662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Specimen_Tank-Full_11'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e887e54b86ab40a0800000000000000
+      internalID: -6896235287284315935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

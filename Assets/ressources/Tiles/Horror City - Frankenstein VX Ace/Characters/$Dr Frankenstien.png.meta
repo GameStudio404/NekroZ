@@ -1,0 +1,488 @@
+fileFormatVersion: 2
+guid: 27ad5cabf8635b147acdcc52d72574c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3654948739490086776
+    second: $Dr Frankenstien_0
+  - first:
+      213: -4707257437339445548
+    second: $Dr Frankenstien_1
+  - first:
+      213: -3660737035797607511
+    second: $Dr Frankenstien_2
+  - first:
+      213: -8155618762723766655
+    second: $Dr Frankenstien_3
+  - first:
+      213: 2702643417637196879
+    second: $Dr Frankenstien_4
+  - first:
+      213: -1428912621611172747
+    second: $Dr Frankenstien_5
+  - first:
+      213: 8235876913409757321
+    second: $Dr Frankenstien_6
+  - first:
+      213: 5362629295807674265
+    second: $Dr Frankenstien_7
+  - first:
+      213: 5094711753648652440
+    second: $Dr Frankenstien_8
+  - first:
+      213: 7820224686560291598
+    second: $Dr Frankenstien_9
+  - first:
+      213: 3871479055328275433
+    second: $Dr Frankenstien_10
+  - first:
+      213: -1843072460387737259
+    second: $Dr Frankenstien_11
+  - first:
+      213: 6885607774486545757
+    second: $Dr Frankenstien_12
+  - first:
+      213: -286855240633125102
+    second: $Dr Frankenstien_13
+  - first:
+      213: -1476496856018961145
+    second: $Dr Frankenstien_14
+  - first:
+      213: 5426567126491358697
+    second: $Dr Frankenstien_15
+  - first:
+      213: 8274067717989313299
+    second: $Dr Frankenstien_16
+  - first:
+      213: -6366304355788761965
+    second: $Dr Frankenstien_17
+  - first:
+      213: -1542393841732670595
+    second: $Dr Frankenstien_18
+  - first:
+      213: -2096299348651718207
+    second: $Dr Frankenstien_19
+  - first:
+      213: -4662475908831199781
+    second: $Dr Frankenstien_20
+  - first:
+      213: -9152194798539249799
+    second: $Dr Frankenstien_21
+  - first:
+      213: 2834113026051116023
+    second: $Dr Frankenstien_22
+  - first:
+      213: -6368634424874848819
+    second: $Dr Frankenstien_23
+  - first:
+      213: 403546512299641423
+    second: $Dr Frankenstien_24
+  - first:
+      213: -6701039907370507562
+    second: $Dr Frankenstien_25
+  - first:
+      213: -6793430035768898410
+    second: $Dr Frankenstien_26
+  - first:
+      213: -9039858054675386311
+    second: $Dr Frankenstien_27
+  - first:
+      213: 2236800643071005558
+    second: $Dr Frankenstien_28
+  - first:
+      213: 3232360665899568022
+    second: $Dr Frankenstien_29
+  - first:
+      213: -8072934931843899550
+    second: $Dr Frankenstien_30
+  - first:
+      213: -3145620567565696574
+    second: $Dr Frankenstien_31
+  - first:
+      213: 6517458031519531843
+    second: $Dr Frankenstien_0
+  - first:
+      213: 156951712205319447
+    second: $Dr Frankenstien_1
+  - first:
+      213: 3308042590867346711
+    second: $Dr Frankenstien_2
+  - first:
+      213: -2871675321910989348
+    second: $Dr Frankenstien_3
+  - first:
+      213: -1407406886161152537
+    second: $Dr Frankenstien_4
+  - first:
+      213: 8366153248641756300
+    second: $Dr Frankenstien_5
+  - first:
+      213: 527511381811948910
+    second: $Dr Frankenstien_6
+  - first:
+      213: 2285868050345131113
+    second: $Dr Frankenstien_7
+  - first:
+      213: 6218203026490691619
+    second: $Dr Frankenstien_8
+  - first:
+      213: -6705755866687958705
+    second: $Dr Frankenstien_9
+  - first:
+      213: 6285995248887043635
+    second: $Dr Frankenstien_10
+  - first:
+      213: 1161240038511732072
+    second: $Dr Frankenstien_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: $Dr Frankenstien_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3430d377c89a27a50800000000000000
+      internalID: 6517458031519531843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $Dr Frankenstien_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d23ec20ca9d2200800000000000000
+      internalID: 156951712205319447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $Dr Frankenstien_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715d28aa53788ed20800000000000000
+      internalID: 3308042590867346711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $Dr Frankenstien_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd6d3f6282c528d0800000000000000
+      internalID: -2871675321910989348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $Dr Frankenstien_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e50defc4e2e77ce0800000000000000
+      internalID: -1407406886161152537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $Dr Frankenstien_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ca5c9cd0c8a1470800000000000000
+      internalID: 8366153248641756300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $Dr Frankenstien_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d60ef8ec8125700800000000000000
+      internalID: 527511381811948910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $Dr Frankenstien_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c7c3871e809bf10800000000000000
+      internalID: 2285868050345131113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $Dr Frankenstien_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3209c3705be7b4650800000000000000
+      internalID: 6218203026490691619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $Dr Frankenstien_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41929f519e50f2a0800000000000000
+      internalID: -6705755866687958705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $Dr Frankenstien_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33694bdcf575c3750800000000000000
+      internalID: 6285995248887043635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $Dr Frankenstien_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865e37a99ad8d1010800000000000000
+      internalID: 1161240038511732072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
