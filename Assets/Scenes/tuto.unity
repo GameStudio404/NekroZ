@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 423841994}
   - component: {fileID: 423841996}
   - component: {fileID: 423841995}
-  m_Layer: 5
+  m_Layer: 1
   m_Name: Q
   m_TagString: Q
   m_Icon: {fileID: 0}
@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -30, y: 80}
+  m_AnchoredPosition: {x: -30, y: 150}
   m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &423841995
@@ -227,7 +227,7 @@ Camera:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -271,8 +271,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1992101102}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -287,7 +286,7 @@ GameObject:
   - component: {fileID: 743792386}
   - component: {fileID: 743792388}
   - component: {fileID: 743792387}
-  m_Layer: 5
+  m_Layer: 1
   m_Name: S
   m_TagString: S
   m_Icon: {fileID: 0}
@@ -310,7 +309,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 80}
+  m_AnchoredPosition: {x: 0, y: 150}
   m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &743792387
@@ -358,7 +357,7 @@ GameObject:
   - component: {fileID: 803299853}
   - component: {fileID: 803299855}
   - component: {fileID: 803299854}
-  m_Layer: 5
+  m_Layer: 1
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -381,7 +380,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 130}
+  m_AnchoredPosition: {x: 0, y: 200}
   m_SizeDelta: {x: 484, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &803299854
@@ -397,7 +396,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -436,7 +435,7 @@ GameObject:
   - component: {fileID: 978840351}
   - component: {fileID: 978840353}
   - component: {fileID: 978840352}
-  m_Layer: 5
+  m_Layer: 1
   m_Name: D
   m_TagString: D
   m_Icon: {fileID: 0}
@@ -459,7 +458,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 30, y: 80}
+  m_AnchoredPosition: {x: 30, y: 150}
   m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &978840352
@@ -575,7 +574,7 @@ GameObject:
   - component: {fileID: 1992101105}
   - component: {fileID: 1992101104}
   - component: {fileID: 1992101103}
-  m_Layer: 5
+  m_Layer: 1
   m_Name: Canvas
   m_TagString: Tuto canvas
   m_Icon: {fileID: 0}
@@ -598,8 +597,8 @@ RectTransform:
   - {fileID: 423841994}
   - {fileID: 743792386}
   - {fileID: 978840351}
-  m_Father: {fileID: 519420032}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -695,7 +694,7 @@ GameObject:
   - component: {fileID: 2055350692}
   - component: {fileID: 2055350694}
   - component: {fileID: 2055350693}
-  m_Layer: 5
+  m_Layer: 1
   m_Name: Z
   m_TagString: Z
   m_Icon: {fileID: 0}
@@ -718,7 +717,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 110}
+  m_AnchoredPosition: {x: 0, y: 180}
   m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2055350693
