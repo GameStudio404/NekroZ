@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Q
+  - S
+  - D
+  - Tuto canvas
+  - Z
+  - Workshop modal
+  - RLT
+  - BIT
+  - CR
   layers:
   - Default
   - TransparentFX
