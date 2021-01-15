@@ -82,6 +82,8 @@ public class FillData : MonoBehaviour
         }
         generateRecipes(recipes);
         generateBackpack(backpack);
+        GameObject add = GameObject.FindWithTag("Add");
+        add.GetComponent<Button>().onClick.AddListener(() => AddItem(backpack));
         Destroy(RLT);
         Destroy(BIT);
 
@@ -105,7 +107,6 @@ public class FillData : MonoBehaviour
     void generateBackpack(Dictionary<string, Material> backpack)
     {
         BIT = GameObject.FindWithTag("BIT");
-        Debug.Log(contentB.transform.childCount);
         if (contentB.transform.childCount > 1)
         {
             for (int j = 0; j < matNames.Count; j++)
@@ -158,4 +159,31 @@ public class FillData : MonoBehaviour
         }
     }
 
+    public void AddItem(Dictionary<string, Material> backpack)
+    {
+        var i = 0;
+        foreach (KeyValuePair<string, Material> Material in backpack)
+        {
+            if (Material.Value.selected > 0)
+            {
+                Debug.Log($"{Material.Value.selected} {Material.Value.name} transfered.");
+                Material.Value.nb -= Material.Value.selected;
+                GameObject ob = GameObject.FindWithTag($"BB{i}");
+                GameObject go = GameObject.FindWithTag($"RI{i}");
+                var given = int.Parse(go.transform.GetChild(1).GetComponentInChildren<Text>().text);
+                var missing = int.Parse(go.transform.GetChild(2).GetComponentInChildren<Text>().text);
+                ob.transform.GetChild(1).GetComponentInChildren<Text>().text = Material.Value.nb.ToString();
+                ob.transform.GetChild(2).GetComponentInChildren<Text>().text = "";
+                go.transform.GetChild(1).GetComponentInChildren<Text>().text = (given + Material.Value.selected).ToString();
+                go.transform.GetChild(2).GetComponentInChildren<Text>().text = (missing - Material.Value.selected) > 0 ?
+                    (missing - Material.Value.selected).ToString() : "";
+                Material.Value.selected = 0;
+            }
+            i++;
+        }
+    }
+    public void RetrieveItem()
+    {
+        Debug.Log("RetrieveItem");
+    }
 }

@@ -32,6 +32,8 @@ TagManager:
   - BB6
   - BB7
   - BB8
+  - Add
+  - Ret
   layers:
   - Default
   - TransparentFX
