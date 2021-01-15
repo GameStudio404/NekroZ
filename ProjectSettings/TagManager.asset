@@ -13,6 +13,15 @@ TagManager:
   - RLT
   - BIT
   - CR
+  - RI0
+  - RI1
+  - RI2
+  - RI3
+  - RI4
+  - RI5
+  - RI6
+  - RI7
+  - RI8
   layers:
   - Default
   - TransparentFX

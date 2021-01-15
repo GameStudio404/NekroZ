@@ -15,7 +15,8 @@ public class FillData : MonoBehaviour
     public Dictionary<string, Sprite> ima = new Dictionary<string, Sprite>();
     public List<Sprite> ItemImages = new List<Sprite>();
     public List<Sprite> RecipesImages = new List<Sprite>();
-    public List<List<string>> ingredients = new List<List<string>>();
+    public List<Button> IngredientTable = new List<Button>();
+    public List<List<RecipeIngredient>> ingredients = new List<List<RecipeIngredient>>();
     public Dictionary<string, Material> backpack = new Dictionary<string, Material>();
     public Dictionary<string, Recipe> recipes = new Dictionary<string, Recipe>();
 
@@ -44,18 +45,17 @@ public class FillData : MonoBehaviour
             3,
             5
         };
-        ingredients.Add(new List<string>() {
-            "Wood",
-            "Wood"
+        ingredients.Add(new List<RecipeIngredient>() {
+            new RecipeIngredient(ItemImages[0], "wood" , 2)
         });
-        ingredients.Add(new List<string>() {
-            "Iron",
-            "Copper"
+        ingredients.Add(new List<RecipeIngredient>() {
+            new RecipeIngredient(ItemImages[2], "copper" , 2),
+            new RecipeIngredient(ItemImages[3], "iron" , 1)
         });
-        ingredients.Add(new List<string>() {
-            "Iron",
-            "Aluminium",
-            "Nfc ship"
+        ingredients.Add(new List<RecipeIngredient>() {
+            new RecipeIngredient(ItemImages[2], "copper" , 3),
+            new RecipeIngredient(ItemImages[3], "iron" , 2),
+            new RecipeIngredient(ItemImages[4], "gold" , 1)
         });
         int i = 0;
         while (i < names.Count)
@@ -66,9 +66,7 @@ public class FillData : MonoBehaviour
             int j = 0;
             while (j < ingredients[i].Count)
             {
-                RecipeIngredient stuff = new RecipeIngredient(
-                    ingredients[i][j++]);
-                tempI.Add(stuff);
+                tempI.Add(ingredients[i][j++]);
             }
             j = 0;
             i++;
@@ -124,9 +122,17 @@ public class FillData : MonoBehaviour
 
     void dispatch(KeyValuePair<string, Recipe> recipe)
     {
+        Debug.Log($"{recipe.Value.name} recipe chosen.");
         ChosenRecipeImage = GameObject.FindWithTag("CR");
         ChosenRecipeImage.GetComponent<Image>().sprite = recipe.Value.sprite;
-        Debug.Log($"{name} recipe chosen.");
+        for (int i = 0; i < recipe.Value.ingredients.Count; i++)
+        {
+            GameObject ob = GameObject.FindWithTag($"RI{i}");
+            Debug.Log(recipe.Value.ingredients[i].sprite);
+            ob.transform.GetChild(0).GetComponentInChildren<Image>().sprite = recipe.Value.ingredients[i].sprite;
+            ob.transform.GetChild(1).GetComponentInChildren<Text>().text = (0).ToString();
+            ob.transform.GetChild(2).GetComponentInChildren<Text>().text = recipe.Value.ingredients[i].nb.ToString();
+        }
     }
 
 }
