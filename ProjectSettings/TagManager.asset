@@ -22,6 +22,16 @@ TagManager:
   - RI6
   - RI7
   - RI8
+  - BC
+  - BB0
+  - BB1
+  - BB2
+  - BB3
+  - BB4
+  - BB5
+  - BB6
+  - BB7
+  - BB8
   layers:
   - Default
   - TransparentFX

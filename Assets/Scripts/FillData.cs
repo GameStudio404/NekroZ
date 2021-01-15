@@ -19,6 +19,14 @@ public class FillData : MonoBehaviour
     public List<List<RecipeIngredient>> ingredients = new List<List<RecipeIngredient>>();
     public Dictionary<string, Material> backpack = new Dictionary<string, Material>();
     public Dictionary<string, Recipe> recipes = new Dictionary<string, Recipe>();
+    public List<string> matNames = new List<string>()
+        {
+            "wood",
+            "coal",
+            "copper",
+            "iron",
+            "gold"
+        };
 
     void Start()
     {
@@ -28,14 +36,6 @@ public class FillData : MonoBehaviour
             "Wood key",
             "Iron key",
             "Nfc key"
-        };
-        List<string> matNames = new List<string>()
-        {
-            "wood",
-            "coal",
-            "copper",
-            "iron",
-            "gold"
         };
         List<int> matNb = new List<int>()
         {
@@ -53,6 +53,8 @@ public class FillData : MonoBehaviour
             new RecipeIngredient(ItemImages[3], "iron" , 1)
         });
         ingredients.Add(new List<RecipeIngredient>() {
+            new RecipeIngredient(ItemImages[0], "wood" , 3),
+            new RecipeIngredient(ItemImages[1], "coal" , 3),
             new RecipeIngredient(ItemImages[2], "copper" , 3),
             new RecipeIngredient(ItemImages[3], "iron" , 2),
             new RecipeIngredient(ItemImages[4], "gold" , 1)
@@ -75,7 +77,7 @@ public class FillData : MonoBehaviour
         i = 0;
         while (i < matNames.Count)
         {
-            Material material = new Material(ItemImages[i], matNames[i], matNb[i]);
+            Material material = new Material(i, ItemImages[i], matNames[i], matNb[i], 0);
             backpack.Add(matNames[i++], material);
         }
         generateRecipes(recipes);
@@ -102,22 +104,44 @@ public class FillData : MonoBehaviour
 
     void generateBackpack(Dictionary<string, Material> backpack)
     {
+        BIT = GameObject.FindWithTag("BIT");
+        Debug.Log(contentB.transform.childCount);
+        if (contentB.transform.childCount > 1)
+        {
+            for (int j = 0; j < matNames.Count; j++)
+            {
+                Destroy(contentB.transform.GetChild(j));
+            }
+        }
+        int i = 0;
         foreach (var entry in backpack)
         {
             var addButton = Instantiate(BIT, transform);
             addButton.transform.SetParent(contentB.transform);
+            addButton.transform.tag = ("BB" + i).ToString();
             addButton.transform.localScale = Vector3.one;
-            addButton.GetComponentInChildren<Text>().text = entry.Value.nb.ToString();
             addButton.transform.GetChild(0).GetComponentInChildren<Image>().sprite = entry.Value.sprite;
+            addButton.transform.GetChild(1).GetComponentInChildren<Text>().text = entry.Value.nb.ToString();
+            addButton.transform.GetChild(2).GetComponentInChildren<Text>().text = entry.Value.selected > 0 ?
+                entry.Value.selected.ToString() : "";
             addButton.GetComponent<Button>().onClick.AddListener(
-                    () => { Debug.Log("backpack"); }
+                    () => selection(entry, entry.Value.id)
                 );
+            i++;
         }
     }
 
     public void closeModal()
     {
         Modal.gameObject.SetActive(false);
+    }
+
+    void selection(KeyValuePair<string, Material> Material, int id)
+    {
+        Material.Value.selected += 1;
+        backpack[Material.Key] = Material.Value;
+        GameObject ob = GameObject.FindWithTag($"BB{id}");
+        ob.transform.GetChild(2).GetComponentInChildren<Text>().text = Material.Value.selected.ToString();
     }
 
     void dispatch(KeyValuePair<string, Recipe> recipe)
@@ -128,7 +152,6 @@ public class FillData : MonoBehaviour
         for (int i = 0; i < recipe.Value.ingredients.Count; i++)
         {
             GameObject ob = GameObject.FindWithTag($"RI{i}");
-            Debug.Log(recipe.Value.ingredients[i].sprite);
             ob.transform.GetChild(0).GetComponentInChildren<Image>().sprite = recipe.Value.ingredients[i].sprite;
             ob.transform.GetChild(1).GetComponentInChildren<Text>().text = (0).ToString();
             ob.transform.GetChild(2).GetComponentInChildren<Text>().text = recipe.Value.ingredients[i].nb.ToString();
