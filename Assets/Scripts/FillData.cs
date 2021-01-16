@@ -11,6 +11,7 @@ public class FillData : MonoBehaviour
     public GameObject RLT;
     public GameObject contentR;
     public GameObject contentB;
+    public GameObject contentC;
     public GameObject ChosenRecipeImage;
     public Dictionary<string, Sprite> ima = new Dictionary<string, Sprite>();
     public List<Sprite> ItemImages = new List<Sprite>();
@@ -19,31 +20,29 @@ public class FillData : MonoBehaviour
     public List<List<RecipeIngredient>> ingredients = new List<List<RecipeIngredient>>();
     public Dictionary<string, Material> backpack = new Dictionary<string, Material>();
     public Dictionary<string, Recipe> recipes = new Dictionary<string, Recipe>();
-    public List<string> matNames = new List<string>()
-        {
-            "wood",
-            "coal",
-            "copper",
-            "iron",
-            "gold"
-        };
+    public GameObject Craft;
+    static int j = 0;
+    public GameObject addCraft;
+    public List<string> matNames = new List<string>();
 
     void Start()
     {
         Modal = GameObject.FindWithTag("Workshop modal");
         Modal.gameObject.SetActive(true);
+        Craft = GameObject.FindWithTag("Craft");
+        Craft.gameObject.SetActive(false);
         List<string> names = new List<string>() {
             "Wood key",
             "Iron key",
-            "Nfc key"
+            "Gold key"
         };
         List<int> matNb = new List<int>()
         {
-            9,
-            3,
-            4,
-            3,
-            5
+            10,
+            10,
+            10,
+            10,
+            10
         };
         ingredients.Add(new List<RecipeIngredient>() {
             new RecipeIngredient(ItemImages[0], "wood" , 2)
@@ -71,22 +70,18 @@ public class FillData : MonoBehaviour
                 tempI.Add(ingredients[i][j++]);
             }
             j = 0;
+            recipes.Add(name, new Recipe(sprite, name, tempI, false, 0));
             i++;
-            recipes.Add(name, new Recipe(sprite, name, tempI, false));
         }
         i = 0;
-        while (i < matNames.Count)
+        while (i < matNb.Count)
         {
             Material material = new Material(i, ItemImages[i], matNames[i], matNb[i], 0);
             backpack.Add(matNames[i++], material);
         }
         generateRecipes(recipes);
-        generateBackpack(backpack);
-        GameObject add = GameObject.FindWithTag("Add");
-        add.GetComponent<Button>().onClick.AddListener(() => AddItem(backpack));
+        generateBackpack(backpack, "BIT");
         Destroy(RLT);
-        Destroy(BIT);
-
     }
 
     void generateRecipes(Dictionary<string, Recipe> recipes)
@@ -104,16 +99,65 @@ public class FillData : MonoBehaviour
         }
     }
 
-    void generateBackpack(Dictionary<string, Material> backpack)
+    void clearIngredientTable()
     {
-        BIT = GameObject.FindWithTag("BIT");
-        if (contentB.transform.childCount > 1)
+        for (int i = 0; i < 9; i++)
         {
-            for (int j = 0; j < matNames.Count; j++)
-            {
-                Destroy(contentB.transform.GetChild(j));
-            }
+            GameObject ob = GameObject.FindWithTag($"RI{i}");
+            ob.transform.GetChild(0).GetComponentInChildren<Image>().sprite = null;
+            ob.transform.GetChild(1).GetComponentInChildren<Text>().text = "";
+            ob.transform.GetChild(2).GetComponentInChildren<Text>().text = "";
         }
+    }
+
+    void clearBackpack(int until)
+    {
+        int i = 1;
+        GameObject ob;
+        while (i < until)
+        {
+            ob = GameObject.FindWithTag($"BB{i}");
+            Destroy(ob);
+            i++;
+        }
+    }
+
+    void updateBackpackForRecipe(Dictionary<string, Material> backpack, KeyValuePair<string, Recipe> recipe)
+    {
+        int i = 1;
+        int j = 0;
+        BIT = GameObject.FindWithTag("BB0");
+        foreach (KeyValuePair<string, Material> Material in backpack)
+        {
+            GameObject ob = GameObject.FindWithTag($"BB{i}");
+            Destroy(ob);
+            if (j < recipe.Value.ingredients.Count)
+            {
+                if (Material.Key == recipe.Value.ingredients[j].name)
+                {
+                    Material.Value.id = j;
+                    var addButton = Instantiate(BIT, transform);
+                    addButton.transform.SetParent(contentB.transform);
+                    addButton.transform.tag = ("BB" + j).ToString();
+                    addButton.transform.localScale = Vector3.one;
+                    addButton.transform.GetChild(0).GetComponentInChildren<Image>().sprite = Material.Value.sprite;
+                    addButton.transform.GetChild(1).GetComponentInChildren<Text>().text = Material.Value.nb.ToString();
+                    addButton.transform.GetChild(2).GetComponentInChildren<Text>().text = Material.Value.selected > 0 ?
+                        Material.Value.selected.ToString() : "";
+                    addButton.GetComponent<Button>().onClick.AddListener(
+                            () => selection(Material, Material.Value.id)
+                        );
+                    j++;
+                }
+            }
+            i++;
+        }
+        Destroy(BIT);
+    }
+
+    void generateBackpack(Dictionary<string, Material> backpack, string tag)
+    {
+        BIT = GameObject.FindWithTag(tag);
         int i = 0;
         foreach (var entry in backpack)
         {
@@ -130,6 +174,7 @@ public class FillData : MonoBehaviour
                 );
             i++;
         }
+        Destroy(BIT);
     }
 
     public void closeModal()
@@ -140,26 +185,35 @@ public class FillData : MonoBehaviour
     void selection(KeyValuePair<string, Material> Material, int id)
     {
         Material.Value.selected += 1;
-        backpack[Material.Key] = Material.Value;
+        //backpack[Material.Key] = Material.Value;
         GameObject ob = GameObject.FindWithTag($"BB{id}");
         ob.transform.GetChild(2).GetComponentInChildren<Text>().text = Material.Value.selected.ToString();
     }
 
     void dispatch(KeyValuePair<string, Recipe> recipe)
     {
+        Craft.gameObject.SetActive(false);
+        Craft.GetComponent<Button>().onClick.AddListener(
+                    () => craft(recipe, backpack)
+                );
         Debug.Log($"{recipe.Value.name} recipe chosen.");
+        updateBackpackForRecipe(backpack, recipe);
         ChosenRecipeImage = GameObject.FindWithTag("CR");
         ChosenRecipeImage.GetComponent<Image>().sprite = recipe.Value.sprite;
-        for (int i = 0; i < recipe.Value.ingredients.Count; i++)
+        for (int i = 0; i < 9; i++)
         {
             GameObject ob = GameObject.FindWithTag($"RI{i}");
-            ob.transform.GetChild(0).GetComponentInChildren<Image>().sprite = recipe.Value.ingredients[i].sprite;
-            ob.transform.GetChild(1).GetComponentInChildren<Text>().text = (0).ToString();
-            ob.transform.GetChild(2).GetComponentInChildren<Text>().text = recipe.Value.ingredients[i].nb.ToString();
+            ob.transform.GetChild(0).GetComponentInChildren<Image>().sprite = i < recipe.Value.ingredients.Count ?
+                recipe.Value.ingredients[i].sprite : null;
+            ob.transform.GetChild(1).GetComponentInChildren<Text>().text = "";
+            ob.transform.GetChild(2).GetComponentInChildren<Text>().text = i < recipe.Value.ingredients.Count ?
+                recipe.Value.ingredients[i].nb.ToString() : "";
         }
+        GameObject add = GameObject.FindWithTag("Add");
+        add.GetComponent<Button>().onClick.AddListener(() => AddItem(backpack, recipe));
     }
 
-    public void AddItem(Dictionary<string, Material> backpack)
+    public void AddItem(Dictionary<string, Material> backpack, KeyValuePair<string, Recipe> recipe)
     {
         var i = 0;
         foreach (KeyValuePair<string, Material> Material in backpack)
@@ -168,22 +222,46 @@ public class FillData : MonoBehaviour
             {
                 Debug.Log($"{Material.Value.selected} {Material.Value.name} transfered.");
                 Material.Value.nb -= Material.Value.selected;
-                GameObject ob = GameObject.FindWithTag($"BB{i}");
-                GameObject go = GameObject.FindWithTag($"RI{i}");
-                var given = int.Parse(go.transform.GetChild(1).GetComponentInChildren<Text>().text);
-                var missing = int.Parse(go.transform.GetChild(2).GetComponentInChildren<Text>().text);
+                GameObject ob = GameObject.FindWithTag($"BB{j}");
+                GameObject go = GameObject.FindWithTag($"RI{j}");
+                var given = go.transform.GetChild(1).GetComponentInChildren<Text>().text == "" ?
+                    0 : int.Parse(go.transform.GetChild(1).GetComponentInChildren<Text>().text);
+                var child = go.transform.GetChild(2).GetComponentInChildren<Text>().text;
+                var missing = child == "" ?  0 : ((int.Parse(child) - Material.Value.selected) > 0 ? int.Parse(child) - Material.Value.selected : 0);
                 ob.transform.GetChild(1).GetComponentInChildren<Text>().text = Material.Value.nb.ToString();
                 ob.transform.GetChild(2).GetComponentInChildren<Text>().text = "";
                 go.transform.GetChild(1).GetComponentInChildren<Text>().text = (given + Material.Value.selected).ToString();
-                go.transform.GetChild(2).GetComponentInChildren<Text>().text = (missing - Material.Value.selected) > 0 ?
-                    (missing - Material.Value.selected).ToString() : "";
+                go.transform.GetChild(2).GetComponentInChildren<Text>().text = missing > 0 ? missing.ToString() : "";
                 Material.Value.selected = 0;
+                recipe.Value.given += missing == 0 ? 1 : 0;
+                j++;
             }
             i++;
         }
+        if (recipe.Value.given >= recipe.Value.ingredients.Count) {
+            j = 0;
+            Craft.gameObject.SetActive(true);
+        }
+
     }
     public void RetrieveItem()
     {
         Debug.Log("RetrieveItem");
+    }
+
+    void craft(KeyValuePair<string, Recipe> recipe, Dictionary<string, Material> backpack)
+    {
+        int i = 0;
+        int pos = backpack.Count;
+        while (ItemImages[i].name != recipe.Key) i++;
+        Material material = new Material(pos, ItemImages[i], matNames[i], 1, 0);
+        backpack.Add(matNames[i], material);
+        Craft.gameObject.SetActive(false);
+        clearIngredientTable();
+        ChosenRecipeImage = GameObject.FindWithTag("CR");
+        ChosenRecipeImage.GetComponent<Image>().sprite = null;
+        Debug.Log($"{recipe.Key} crafted!");
+        clearBackpack(recipe.Value.ingredients.Count);
+        generateBackpack(backpack, "BB0");
     }
 }
