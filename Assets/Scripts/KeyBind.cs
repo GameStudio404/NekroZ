@@ -102,4 +102,8 @@ public class KeyBind : MonoBehaviour
         currentKey = clicked;
         currentKey.GetComponent<Image>().color = selected;
     }
+
+    public Dictionary<string, KeyCode> GetKeys() {
+        return keys;
+    }
 }
