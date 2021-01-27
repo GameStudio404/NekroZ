@@ -19968,8 +19968,10 @@ MonoBehaviour:
   RLT: {fileID: 1345217806}
   contentR: {fileID: 1089269558}
   contentB: {fileID: 521615803}
-  contentC: {fileID: 0}
+  contentC: {fileID: 287216450}
   ChosenRecipeImage: {fileID: 401160431}
+  Craft: {fileID: 765104233}
+  addCraft: {fileID: 1564263416}
   ItemImages:
   - {fileID: 21300000, guid: 5e84e7f794233b24984dc95414cc3a4e, type: 3}
   - {fileID: 21300000, guid: 47c6db15bfb18c648a24efde1887c55d, type: 3}
@@ -19983,27 +19985,16 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 3217a079d900a704687b5c4c489b9398, type: 3}
   - {fileID: 21300000, guid: bf925bca97bfc584ba5a62d7cb75f5a3, type: 3}
   - {fileID: 21300000, guid: 981e021ca219c7a4b90ce9c87cc9d6e6, type: 3}
-  IngredientTable:
-  - {fileID: 620441150}
-  - {fileID: 827471683}
-  - {fileID: 348237007}
-  - {fileID: 1185856020}
-  - {fileID: 143317343}
-  - {fileID: 142620620}
-  - {fileID: 112827045}
-  - {fileID: 1730467280}
-  - {fileID: 1697455035}
-  Craft: {fileID: 765104233}
-  addCraft: {fileID: 0}
+  IngredientTable: []
   matNames:
   - wood
   - coal
   - copper
   - iron
   - gold
-  - wkey
-  - ikey
-  - gkey
+  - wood key
+  - iron key
+  - gold key
 --- !u!1 &1564263416
 GameObject:
   m_ObjectHideFlags: 0
@@ -20143,17 +20134,12 @@ MonoBehaviour:
   contentB: {fileID: 0}
   contentC: {fileID: 0}
   ChosenRecipeImage: {fileID: 0}
+  Craft: {fileID: 0}
+  addCraft: {fileID: 0}
   ItemImages: []
   RecipesImages: []
   IngredientTable: []
-  Craft: {fileID: 0}
-  addCraft: {fileID: 0}
-  matNames:
-  - wood
-  - coal
-  - copper
-  - iron
-  - gold
+  matNames: []
 --- !u!1 &1575322949
 GameObject:
   m_ObjectHideFlags: 0
@@ -20943,24 +20929,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 964e352446501c541bb60329183e58b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Modal: {fileID: 2020783848}
-  BIT: {fileID: 1642231776}
-  RLT: {fileID: 1345217806}
-  contentR: {fileID: 1089269558}
-  contentB: {fileID: 521615803}
+  Modal: {fileID: 0}
+  BIT: {fileID: 0}
+  RLT: {fileID: 0}
+  contentR: {fileID: 0}
+  contentB: {fileID: 0}
   contentC: {fileID: 0}
   ChosenRecipeImage: {fileID: 0}
+  Craft: {fileID: 0}
+  addCraft: {fileID: 0}
   ItemImages: []
   RecipesImages: []
   IngredientTable: []
-  Craft: {fileID: 0}
-  addCraft: {fileID: 0}
-  matNames:
-  - wood
-  - coal
-  - copper
-  - iron
-  - gold
+  matNames: []
 --- !u!1 &1789750212
 GameObject:
   m_ObjectHideFlags: 0
@@ -21111,17 +21092,12 @@ MonoBehaviour:
   contentB: {fileID: 0}
   contentC: {fileID: 0}
   ChosenRecipeImage: {fileID: 0}
+  Craft: {fileID: 0}
+  addCraft: {fileID: 0}
   ItemImages: []
   RecipesImages: []
   IngredientTable: []
-  Craft: {fileID: 0}
-  addCraft: {fileID: 0}
-  matNames:
-  - wood
-  - coal
-  - copper
-  - iron
-  - gold
+  matNames: []
 --- !u!1 &1870287948
 GameObject:
   m_ObjectHideFlags: 0
@@ -21591,17 +21567,12 @@ MonoBehaviour:
   contentB: {fileID: 0}
   contentC: {fileID: 0}
   ChosenRecipeImage: {fileID: 0}
+  Craft: {fileID: 0}
+  addCraft: {fileID: 0}
   ItemImages: []
   RecipesImages: []
   IngredientTable: []
-  Craft: {fileID: 0}
-  addCraft: {fileID: 0}
-  matNames:
-  - wood
-  - coal
-  - copper
-  - iron
-  - gold
+  matNames: []
 --- !u!1 &1986417467
 GameObject:
   m_ObjectHideFlags: 0

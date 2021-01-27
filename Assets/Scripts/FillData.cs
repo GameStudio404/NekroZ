@@ -6,13 +6,7 @@ using UnityEngine.UI;
 
 public class FillData : MonoBehaviour
 {
-    public GameObject Modal;
-    public GameObject BIT;
-    public GameObject RLT;
-    public GameObject contentR;
-    public GameObject contentB;
-    public GameObject contentC;
-    public GameObject ChosenRecipeImage;
+    public GameObject Modal, BIT, RLT, contentR, contentB, contentC, ChosenRecipeImage, Craft, addCraft;
     public Dictionary<string, Sprite> ima = new Dictionary<string, Sprite>();
     public List<Sprite> ItemImages = new List<Sprite>();
     public List<Sprite> RecipesImages = new List<Sprite>();
@@ -20,9 +14,8 @@ public class FillData : MonoBehaviour
     public List<List<RecipeIngredient>> ingredients = new List<List<RecipeIngredient>>();
     public Dictionary<string, Material> backpack = new Dictionary<string, Material>();
     public Dictionary<string, Recipe> recipes = new Dictionary<string, Recipe>();
-    public GameObject Craft;
-    static int j = 0;
-    public GameObject addCraft;
+    public KeyValuePair<string, Recipe> currentRecipe = new KeyValuePair<string, Recipe>();
+    public static int j = 0;
     public List<string> matNames = new List<string>();
 
     void Start()
@@ -193,8 +186,9 @@ public class FillData : MonoBehaviour
     void dispatch(KeyValuePair<string, Recipe> recipe)
     {
         Craft.gameObject.SetActive(false);
+        currentRecipe = recipe;
         Craft.GetComponent<Button>().onClick.AddListener(
-                    () => craft(recipe, backpack)
+                    () => craft(backpack)
                 );
         Debug.Log($"{recipe.Value.name} recipe chosen.");
         updateBackpackForRecipe(backpack, recipe);
@@ -249,19 +243,21 @@ public class FillData : MonoBehaviour
         Debug.Log("RetrieveItem");
     }
 
-    void craft(KeyValuePair<string, Recipe> recipe, Dictionary<string, Material> backpack)
+    void craft(Dictionary<string, Material> backpack)
     {
-        int i = 0;
-        int pos = backpack.Count;
-        while (ItemImages[i].name != recipe.Key) i++;
+        if (currentRecipe.Key == null)
+            return;
+        int i = 0, pos = backpack.Count;
+        while (ItemImages[i].name != currentRecipe.Key) i++;
         Material material = new Material(pos, ItemImages[i], matNames[i], 1, 0);
         backpack.Add(matNames[i], material);
         Craft.gameObject.SetActive(false);
         clearIngredientTable();
         ChosenRecipeImage = GameObject.FindWithTag("CR");
         ChosenRecipeImage.GetComponent<Image>().sprite = null;
-        Debug.Log($"{recipe.Key} crafted!");
-        clearBackpack(recipe.Value.ingredients.Count);
+        Debug.Log($"{currentRecipe.Key} crafted!");
+        clearBackpack(currentRecipe.Value.ingredients.Count);
         generateBackpack(backpack, "BB0");
+        currentRecipe = new KeyValuePair<string, Recipe>();
     }
 }
