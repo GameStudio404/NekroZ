@@ -3,7 +3,39 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Q
+  - S
+  - D
+  - Tuto canvas
+  - Z
+  - Workshop modal
+  - RLT
+  - BIT
+  - CR
+  - RI0
+  - RI1
+  - RI2
+  - RI3
+  - RI4
+  - RI5
+  - RI6
+  - RI7
+  - RI8
+  - BC
+  - BB0
+  - BB1
+  - BB2
+  - BB3
+  - BB4
+  - BB5
+  - BB6
+  - BB7
+  - BB8
+  - Add
+  - Ret
+  - Craft
+  - Craft1
   layers:
   - Default
   - TransparentFX
