@@ -73,9 +73,25 @@ public class KeyBind : MonoBehaviour
         }
         if (Input.GetKeyDown(keys["Interact"]))
         {
+            UnlockCylinder();
             // Do a move
             Debug.Log("Interact");
         }
+    }
+
+    void UnlockCylinder()
+    {
+        // Image interface;
+        // interface = GetComponent<Image>();
+        GameObject.Find("CylinderInterface").SetActive(true);
+        // set active cylinder interface
+        // scan card
+        // unlock character
+          if (Input.GetKeyDown(keys["Interact"]))
+          {
+            GameObject.Find("CylinderInterface").SetActive(false);
+          }
+            // close the interface          
     }
 
     void OnGUI()
