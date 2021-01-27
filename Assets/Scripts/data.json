@@ -1,0 +1,11 @@
+{
+    "common": {
+        "hp": 0,
+        "def": 0,
+        "res": 0,
+        "crafting": 0,
+        "enlightment": 0,
+        "speed": 0,
+        "power": 0
+    }
+}
