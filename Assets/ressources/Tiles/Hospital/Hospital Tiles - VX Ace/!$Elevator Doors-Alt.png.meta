@@ -38,6 +38,834 @@ TextureImporter:
   - first:
       213: -5998049857204824358
     second: '!$Elevator Doors-Alt_11'
+  - first:
+      213: 2693683605436242
+    second: '!$Elevator Doors-Alt_12'
+  - first:
+      213: -5846376930336086957
+    second: '!$Elevator Doors-Alt_13'
+  - first:
+      213: -7045837380731761148
+    second: '!$Elevator Doors-Alt_14'
+  - first:
+      213: 818072014289795280
+    second: '!$Elevator Doors-Alt_15'
+  - first:
+      213: 6576748499021795318
+    second: '!$Elevator Doors-Alt_16'
+  - first:
+      213: 2944001840197169651
+    second: '!$Elevator Doors-Alt_17'
+  - first:
+      213: 7399300851309386373
+    second: '!$Elevator Doors-Alt_18'
+  - first:
+      213: -563166512709256717
+    second: '!$Elevator Doors-Alt_19'
+  - first:
+      213: 4180636378869361691
+    second: '!$Elevator Doors-Alt_20'
+  - first:
+      213: 8142886928001375118
+    second: '!$Elevator Doors-Alt_21'
+  - first:
+      213: 723720007137589951
+    second: '!$Elevator Doors-Alt_22'
+  - first:
+      213: 1392352882389928330
+    second: '!$Elevator Doors-Alt_23'
+  - first:
+      213: 1781336858970878940
+    second: '!$Elevator Doors-Alt_24'
+  - first:
+      213: 5605455652845951381
+    second: '!$Elevator Doors-Alt_25'
+  - first:
+      213: -5768834666875338125
+    second: '!$Elevator Doors-Alt_26'
+  - first:
+      213: -7610283448670199516
+    second: '!$Elevator Doors-Alt_27'
+  - first:
+      213: -9071663574139424422
+    second: '!$Elevator Doors-Alt_28'
+  - first:
+      213: -7681667028916615702
+    second: '!$Elevator Doors-Alt_29'
+  - first:
+      213: 5003399124434101531
+    second: '!$Elevator Doors-Alt_30'
+  - first:
+      213: -4479354592270661143
+    second: '!$Elevator Doors-Alt_31'
+  - first:
+      213: 6349761105979166183
+    second: '!$Elevator Doors-Alt_32'
+  - first:
+      213: 4195292057086370390
+    second: '!$Elevator Doors-Alt_33'
+  - first:
+      213: -8510819614072533755
+    second: '!$Elevator Doors-Alt_34'
+  - first:
+      213: -7670915309314257696
+    second: '!$Elevator Doors-Alt_35'
+  - first:
+      213: 4334674642495803731
+    second: '!$Elevator Doors-Alt_36'
+  - first:
+      213: 3410206101978876741
+    second: '!$Elevator Doors-Alt_37'
+  - first:
+      213: -6640416207594625891
+    second: '!$Elevator Doors-Alt_38'
+  - first:
+      213: 5099253358357483976
+    second: '!$Elevator Doors-Alt_39'
+  - first:
+      213: -9119695206267397702
+    second: '!$Elevator Doors-Alt_40'
+  - first:
+      213: 370839433230963322
+    second: '!$Elevator Doors-Alt_41'
+  - first:
+      213: -2404240150004484014
+    second: '!$Elevator Doors-Alt_42'
+  - first:
+      213: 3089502588674397072
+    second: '!$Elevator Doors-Alt_43'
+  - first:
+      213: 8872264349278590852
+    second: '!$Elevator Doors-Alt_44'
+  - first:
+      213: -1033032175927801649
+    second: '!$Elevator Doors-Alt_45'
+  - first:
+      213: 1481645287642912477
+    second: '!$Elevator Doors-Alt_46'
+  - first:
+      213: -8376440538568077530
+    second: '!$Elevator Doors-Alt_47'
+  - first:
+      213: 5712039238003676
+    second: '!$Elevator Doors-Alt_48'
+  - first:
+      213: 6490287381258100355
+    second: '!$Elevator Doors-Alt_49'
+  - first:
+      213: -5945532132476963153
+    second: '!$Elevator Doors-Alt_50'
+  - first:
+      213: -3889293670261877351
+    second: '!$Elevator Doors-Alt_51'
+  - first:
+      213: 1897500690347379841
+    second: '!$Elevator Doors-Alt_52'
+  - first:
+      213: -8163776350592440546
+    second: '!$Elevator Doors-Alt_53'
+  - first:
+      213: 4743621727903370506
+    second: '!$Elevator Doors-Alt_54'
+  - first:
+      213: -5053510801381554885
+    second: '!$Elevator Doors-Alt_55'
+  - first:
+      213: 9013678202943054833
+    second: '!$Elevator Doors-Alt_56'
+  - first:
+      213: -6752552082138578205
+    second: '!$Elevator Doors-Alt_57'
+  - first:
+      213: -7968460566720205540
+    second: '!$Elevator Doors-Alt_58'
+  - first:
+      213: 5197697685380386951
+    second: '!$Elevator Doors-Alt_59'
+  - first:
+      213: -7331463334297258251
+    second: '!$Elevator Doors-Alt_60'
+  - first:
+      213: 5748282195812157568
+    second: '!$Elevator Doors-Alt_61'
+  - first:
+      213: 7678443168519720178
+    second: '!$Elevator Doors-Alt_62'
+  - first:
+      213: 325176831018505829
+    second: '!$Elevator Doors-Alt_63'
+  - first:
+      213: 212637416125260544
+    second: '!$Elevator Doors-Alt_64'
+  - first:
+      213: -431797115917820994
+    second: '!$Elevator Doors-Alt_65'
+  - first:
+      213: -2356956048837798549
+    second: '!$Elevator Doors-Alt_66'
+  - first:
+      213: -6239265209346020850
+    second: '!$Elevator Doors-Alt_67'
+  - first:
+      213: 4254397119233756801
+    second: '!$Elevator Doors-Alt_68'
+  - first:
+      213: 1558676427816843507
+    second: '!$Elevator Doors-Alt_69'
+  - first:
+      213: 7847445971744297396
+    second: '!$Elevator Doors-Alt_70'
+  - first:
+      213: -1986783061019165755
+    second: '!$Elevator Doors-Alt_71'
+  - first:
+      213: -279758874923463882
+    second: '!$Elevator Doors-Alt_72'
+  - first:
+      213: -4597676590416907732
+    second: '!$Elevator Doors-Alt_73'
+  - first:
+      213: -5001320675294068708
+    second: '!$Elevator Doors-Alt_74'
+  - first:
+      213: -1720370199410239445
+    second: '!$Elevator Doors-Alt_75'
+  - first:
+      213: -1853761999474770946
+    second: '!$Elevator Doors-Alt_76'
+  - first:
+      213: -5344763956004092436
+    second: '!$Elevator Doors-Alt_77'
+  - first:
+      213: 6548125316947513022
+    second: '!$Elevator Doors-Alt_78'
+  - first:
+      213: 2230077655393169527
+    second: '!$Elevator Doors-Alt_79'
+  - first:
+      213: -931775465749203790
+    second: '!$Elevator Doors-Alt_80'
+  - first:
+      213: 4099809386746280253
+    second: '!$Elevator Doors-Alt_81'
+  - first:
+      213: 5998453630599994936
+    second: '!$Elevator Doors-Alt_82'
+  - first:
+      213: -4254474422574541767
+    second: '!$Elevator Doors-Alt_83'
+  - first:
+      213: 4976341783161064413
+    second: '!$Elevator Doors-Alt_84'
+  - first:
+      213: 8413253419576409996
+    second: '!$Elevator Doors-Alt_85'
+  - first:
+      213: -6021409857267282941
+    second: '!$Elevator Doors-Alt_86'
+  - first:
+      213: -1241030918639553486
+    second: '!$Elevator Doors-Alt_87'
+  - first:
+      213: -5876443862683435862
+    second: '!$Elevator Doors-Alt_88'
+  - first:
+      213: -2734874278458008429
+    second: '!$Elevator Doors-Alt_89'
+  - first:
+      213: 3430818768052044187
+    second: '!$Elevator Doors-Alt_90'
+  - first:
+      213: 2753237599204335748
+    second: '!$Elevator Doors-Alt_91'
+  - first:
+      213: -7397448602430725231
+    second: '!$Elevator Doors-Alt_92'
+  - first:
+      213: 2540487057564827859
+    second: '!$Elevator Doors-Alt_93'
+  - first:
+      213: -7818461092530071609
+    second: '!$Elevator Doors-Alt_94'
+  - first:
+      213: 878625724909106548
+    second: '!$Elevator Doors-Alt_95'
+  - first:
+      213: 4482285686259635223
+    second: '!$Elevator Doors-Alt_96'
+  - first:
+      213: 5758137263608235221
+    second: '!$Elevator Doors-Alt_97'
+  - first:
+      213: 3158468663950202186
+    second: '!$Elevator Doors-Alt_98'
+  - first:
+      213: -5664371581322581193
+    second: '!$Elevator Doors-Alt_99'
+  - first:
+      213: -7373759088943118918
+    second: '!$Elevator Doors-Alt_100'
+  - first:
+      213: 4899205468848338398
+    second: '!$Elevator Doors-Alt_101'
+  - first:
+      213: -1448975001753091268
+    second: '!$Elevator Doors-Alt_102'
+  - first:
+      213: -8261841891123888034
+    second: '!$Elevator Doors-Alt_103'
+  - first:
+      213: -875934465578702951
+    second: '!$Elevator Doors-Alt_104'
+  - first:
+      213: 2455746854518100166
+    second: '!$Elevator Doors-Alt_105'
+  - first:
+      213: 804490905434114615
+    second: '!$Elevator Doors-Alt_106'
+  - first:
+      213: 8378440500897277005
+    second: '!$Elevator Doors-Alt_107'
+  - first:
+      213: 3674968716684610852
+    second: '!$Elevator Doors-Alt_108'
+  - first:
+      213: -303512814449574699
+    second: '!$Elevator Doors-Alt_109'
+  - first:
+      213: -5806105137696886106
+    second: '!$Elevator Doors-Alt_110'
+  - first:
+      213: -6999051754288080485
+    second: '!$Elevator Doors-Alt_111'
+  - first:
+      213: -2253634508260475693
+    second: '!$Elevator Doors-Alt_112'
+  - first:
+      213: -6441771047489809471
+    second: '!$Elevator Doors-Alt_113'
+  - first:
+      213: -2625034524838279741
+    second: '!$Elevator Doors-Alt_114'
+  - first:
+      213: -6003726652800588187
+    second: '!$Elevator Doors-Alt_115'
+  - first:
+      213: 1992465306606986536
+    second: '!$Elevator Doors-Alt_116'
+  - first:
+      213: -776322282892614817
+    second: '!$Elevator Doors-Alt_117'
+  - first:
+      213: 5471459083271160462
+    second: '!$Elevator Doors-Alt_118'
+  - first:
+      213: -4984836788306911320
+    second: '!$Elevator Doors-Alt_119'
+  - first:
+      213: 1726112267498725378
+    second: '!$Elevator Doors-Alt_120'
+  - first:
+      213: 2273849291546881883
+    second: '!$Elevator Doors-Alt_121'
+  - first:
+      213: -8415600024134517236
+    second: '!$Elevator Doors-Alt_122'
+  - first:
+      213: -6301790637198294774
+    second: '!$Elevator Doors-Alt_123'
+  - first:
+      213: 2746685741587264963
+    second: '!$Elevator Doors-Alt_124'
+  - first:
+      213: -7253980451285869996
+    second: '!$Elevator Doors-Alt_125'
+  - first:
+      213: 3714243259179364577
+    second: '!$Elevator Doors-Alt_126'
+  - first:
+      213: -7718607989803799278
+    second: '!$Elevator Doors-Alt_127'
+  - first:
+      213: 7147039998503863433
+    second: '!$Elevator Doors-Alt_128'
+  - first:
+      213: 3006684384866037412
+    second: '!$Elevator Doors-Alt_129'
+  - first:
+      213: -3672063549522279052
+    second: '!$Elevator Doors-Alt_130'
+  - first:
+      213: 2842272037213761057
+    second: '!$Elevator Doors-Alt_131'
+  - first:
+      213: 5883989341311602428
+    second: '!$Elevator Doors-Alt_132'
+  - first:
+      213: 6899064104439328716
+    second: '!$Elevator Doors-Alt_133'
+  - first:
+      213: -3735826057177036490
+    second: '!$Elevator Doors-Alt_134'
+  - first:
+      213: -1938621807666040072
+    second: '!$Elevator Doors-Alt_135'
+  - first:
+      213: 2608350249501580223
+    second: '!$Elevator Doors-Alt_136'
+  - first:
+      213: -1506664197669600003
+    second: '!$Elevator Doors-Alt_137'
+  - first:
+      213: -8064699552756319733
+    second: '!$Elevator Doors-Alt_138'
+  - first:
+      213: 5759135273261565987
+    second: '!$Elevator Doors-Alt_139'
+  - first:
+      213: 7095212729418915041
+    second: '!$Elevator Doors-Alt_140'
+  - first:
+      213: -4427450854645220113
+    second: '!$Elevator Doors-Alt_141'
+  - first:
+      213: 8546693775892907151
+    second: '!$Elevator Doors-Alt_142'
+  - first:
+      213: 6684860273586349158
+    second: '!$Elevator Doors-Alt_143'
+  - first:
+      213: -1098378547302839816
+    second: '!$Elevator Doors-Alt_144'
+  - first:
+      213: 3916099500916647625
+    second: '!$Elevator Doors-Alt_145'
+  - first:
+      213: 6371120251539157486
+    second: '!$Elevator Doors-Alt_146'
+  - first:
+      213: 698481071512526496
+    second: '!$Elevator Doors-Alt_147'
+  - first:
+      213: 4959985976825579394
+    second: '!$Elevator Doors-Alt_148'
+  - first:
+      213: -4512011617330048763
+    second: '!$Elevator Doors-Alt_149'
+  - first:
+      213: -5983308273040798457
+    second: '!$Elevator Doors-Alt_150'
+  - first:
+      213: -6271755193769465417
+    second: '!$Elevator Doors-Alt_151'
+  - first:
+      213: 3870319299193065801
+    second: '!$Elevator Doors-Alt_152'
+  - first:
+      213: -8300044137392457067
+    second: '!$Elevator Doors-Alt_153'
+  - first:
+      213: 7554023864237707952
+    second: '!$Elevator Doors-Alt_154'
+  - first:
+      213: -4401654940028988977
+    second: '!$Elevator Doors-Alt_155'
+  - first:
+      213: -7356569266130765556
+    second: '!$Elevator Doors-Alt_156'
+  - first:
+      213: -1089065477924985718
+    second: '!$Elevator Doors-Alt_157'
+  - first:
+      213: 8496369752571243168
+    second: '!$Elevator Doors-Alt_158'
+  - first:
+      213: 246273829270319177
+    second: '!$Elevator Doors-Alt_159'
+  - first:
+      213: 7204605864198499805
+    second: '!$Elevator Doors-Alt_160'
+  - first:
+      213: 2420792826918763908
+    second: '!$Elevator Doors-Alt_161'
+  - first:
+      213: 971166800256181537
+    second: '!$Elevator Doors-Alt_162'
+  - first:
+      213: -7459134361733657758
+    second: '!$Elevator Doors-Alt_163'
+  - first:
+      213: -5303390335267377455
+    second: '!$Elevator Doors-Alt_164'
+  - first:
+      213: -127607965900913485
+    second: '!$Elevator Doors-Alt_165'
+  - first:
+      213: 7002462470267841927
+    second: '!$Elevator Doors-Alt_166'
+  - first:
+      213: -1309386045674241722
+    second: '!$Elevator Doors-Alt_167'
+  - first:
+      213: -4583978057932060461
+    second: '!$Elevator Doors-Alt_168'
+  - first:
+      213: -3756703708192773314
+    second: '!$Elevator Doors-Alt_169'
+  - first:
+      213: -4043284269076112605
+    second: '!$Elevator Doors-Alt_170'
+  - first:
+      213: 9026959827091190385
+    second: '!$Elevator Doors-Alt_171'
+  - first:
+      213: -3663511921519645331
+    second: '!$Elevator Doors-Alt_172'
+  - first:
+      213: 2464559101325027238
+    second: '!$Elevator Doors-Alt_173'
+  - first:
+      213: 7431776568458041132
+    second: '!$Elevator Doors-Alt_174'
+  - first:
+      213: 3972839536158373900
+    second: '!$Elevator Doors-Alt_175'
+  - first:
+      213: 3776938066498218873
+    second: '!$Elevator Doors-Alt_176'
+  - first:
+      213: -2429751682279458673
+    second: '!$Elevator Doors-Alt_177'
+  - first:
+      213: -5484430121423312942
+    second: '!$Elevator Doors-Alt_178'
+  - first:
+      213: -8691419520964886544
+    second: '!$Elevator Doors-Alt_179'
+  - first:
+      213: 3284314871791851827
+    second: '!$Elevator Doors-Alt_180'
+  - first:
+      213: 2189128149520747903
+    second: '!$Elevator Doors-Alt_181'
+  - first:
+      213: -4495269322318987040
+    second: '!$Elevator Doors-Alt_182'
+  - first:
+      213: -673803930001771413
+    second: '!$Elevator Doors-Alt_183'
+  - first:
+      213: 1397952432846714379
+    second: '!$Elevator Doors-Alt_184'
+  - first:
+      213: -6885352588369990919
+    second: '!$Elevator Doors-Alt_185'
+  - first:
+      213: -8927272447678219735
+    second: '!$Elevator Doors-Alt_186'
+  - first:
+      213: 5376474621207421044
+    second: '!$Elevator Doors-Alt_187'
+  - first:
+      213: -7784621490289919165
+    second: '!$Elevator Doors-Alt_188'
+  - first:
+      213: -4945809439251415841
+    second: '!$Elevator Doors-Alt_189'
+  - first:
+      213: 4603072633523695502
+    second: '!$Elevator Doors-Alt_190'
+  - first:
+      213: 1484777185690380016
+    second: '!$Elevator Doors-Alt_191'
+  - first:
+      213: -1966802499776082107
+    second: '!$Elevator Doors-Alt_192'
+  - first:
+      213: -8614633626418362026
+    second: '!$Elevator Doors-Alt_193'
+  - first:
+      213: 7346578654074103330
+    second: '!$Elevator Doors-Alt_194'
+  - first:
+      213: -5560226352648234828
+    second: '!$Elevator Doors-Alt_195'
+  - first:
+      213: 1056762158346226270
+    second: '!$Elevator Doors-Alt_196'
+  - first:
+      213: 139810687287124607
+    second: '!$Elevator Doors-Alt_197'
+  - first:
+      213: -7112893700935696654
+    second: '!$Elevator Doors-Alt_198'
+  - first:
+      213: -4437918816647011007
+    second: '!$Elevator Doors-Alt_199'
+  - first:
+      213: -4279466007487091602
+    second: '!$Elevator Doors-Alt_200'
+  - first:
+      213: -8419341655945840329
+    second: '!$Elevator Doors-Alt_201'
+  - first:
+      213: -7759569728376866821
+    second: '!$Elevator Doors-Alt_202'
+  - first:
+      213: 7844951539026639622
+    second: '!$Elevator Doors-Alt_203'
+  - first:
+      213: -4922714800452355405
+    second: '!$Elevator Doors-Alt_204'
+  - first:
+      213: -6562721680100454255
+    second: '!$Elevator Doors-Alt_205'
+  - first:
+      213: -8785177551119350694
+    second: '!$Elevator Doors-Alt_206'
+  - first:
+      213: -4568947464740010270
+    second: '!$Elevator Doors-Alt_207'
+  - first:
+      213: 190357403711491154
+    second: '!$Elevator Doors-Alt_208'
+  - first:
+      213: -2747320221986601297
+    second: '!$Elevator Doors-Alt_209'
+  - first:
+      213: -1087215594813259487
+    second: '!$Elevator Doors-Alt_210'
+  - first:
+      213: 7949586771047235984
+    second: '!$Elevator Doors-Alt_211'
+  - first:
+      213: 7852785362369229987
+    second: '!$Elevator Doors-Alt_212'
+  - first:
+      213: 5822992988981047715
+    second: '!$Elevator Doors-Alt_213'
+  - first:
+      213: 6094088595665977995
+    second: '!$Elevator Doors-Alt_214'
+  - first:
+      213: 2477950344869998210
+    second: '!$Elevator Doors-Alt_215'
+  - first:
+      213: 3341973482827476820
+    second: '!$Elevator Doors-Alt_216'
+  - first:
+      213: 7784000256005316485
+    second: '!$Elevator Doors-Alt_217'
+  - first:
+      213: -9100213153326523708
+    second: '!$Elevator Doors-Alt_218'
+  - first:
+      213: -7053738079718771126
+    second: '!$Elevator Doors-Alt_219'
+  - first:
+      213: -8339862491715578063
+    second: '!$Elevator Doors-Alt_220'
+  - first:
+      213: 1814985904519621018
+    second: '!$Elevator Doors-Alt_221'
+  - first:
+      213: -7161943567733316726
+    second: '!$Elevator Doors-Alt_222'
+  - first:
+      213: 7733096098278011715
+    second: '!$Elevator Doors-Alt_223'
+  - first:
+      213: 2400341328800577642
+    second: '!$Elevator Doors-Alt_224'
+  - first:
+      213: -6109013153424221311
+    second: '!$Elevator Doors-Alt_225'
+  - first:
+      213: 1456474723188203309
+    second: '!$Elevator Doors-Alt_226'
+  - first:
+      213: -8598951065850654742
+    second: '!$Elevator Doors-Alt_227'
+  - first:
+      213: 3599713796647258434
+    second: '!$Elevator Doors-Alt_228'
+  - first:
+      213: -1728583437956875425
+    second: '!$Elevator Doors-Alt_229'
+  - first:
+      213: -2623828167565287518
+    second: '!$Elevator Doors-Alt_230'
+  - first:
+      213: 1488168816682462457
+    second: '!$Elevator Doors-Alt_231'
+  - first:
+      213: 2985203335402238139
+    second: '!$Elevator Doors-Alt_232'
+  - first:
+      213: -1746018978433487208
+    second: '!$Elevator Doors-Alt_233'
+  - first:
+      213: 3760503856671852088
+    second: '!$Elevator Doors-Alt_234'
+  - first:
+      213: -3027186374475543203
+    second: '!$Elevator Doors-Alt_235'
+  - first:
+      213: 4895563649602398357
+    second: '!$Elevator Doors-Alt_236'
+  - first:
+      213: 5543756315724270478
+    second: '!$Elevator Doors-Alt_237'
+  - first:
+      213: -3187840783477927146
+    second: '!$Elevator Doors-Alt_238'
+  - first:
+      213: -4093571907976395572
+    second: '!$Elevator Doors-Alt_239'
+  - first:
+      213: -7672077249734994694
+    second: '!$Elevator Doors-Alt_240'
+  - first:
+      213: -1981131810959870823
+    second: '!$Elevator Doors-Alt_241'
+  - first:
+      213: 7071061760595300184
+    second: '!$Elevator Doors-Alt_242'
+  - first:
+      213: -1175853740520956969
+    second: '!$Elevator Doors-Alt_243'
+  - first:
+      213: 9108098008910840643
+    second: '!$Elevator Doors-Alt_244'
+  - first:
+      213: 4170583238909554971
+    second: '!$Elevator Doors-Alt_245'
+  - first:
+      213: 8260544302534765487
+    second: '!$Elevator Doors-Alt_246'
+  - first:
+      213: 2155704894614166646
+    second: '!$Elevator Doors-Alt_247'
+  - first:
+      213: -7904887236694594781
+    second: '!$Elevator Doors-Alt_248'
+  - first:
+      213: -5380238562942219504
+    second: '!$Elevator Doors-Alt_249'
+  - first:
+      213: 26438128438885246
+    second: '!$Elevator Doors-Alt_250'
+  - first:
+      213: -192181078543209988
+    second: '!$Elevator Doors-Alt_251'
+  - first:
+      213: -2062911271162152003
+    second: '!$Elevator Doors-Alt_252'
+  - first:
+      213: 4987674506733465071
+    second: '!$Elevator Doors-Alt_253'
+  - first:
+      213: 1135959276384925745
+    second: '!$Elevator Doors-Alt_254'
+  - first:
+      213: -1630161618788981260
+    second: '!$Elevator Doors-Alt_255'
+  - first:
+      213: 1284599787228222519
+    second: '!$Elevator Doors-Alt_256'
+  - first:
+      213: -409091462888793160
+    second: '!$Elevator Doors-Alt_257'
+  - first:
+      213: -8066762356653140448
+    second: '!$Elevator Doors-Alt_258'
+  - first:
+      213: -2444648671892606541
+    second: '!$Elevator Doors-Alt_259'
+  - first:
+      213: 5082700926162150701
+    second: '!$Elevator Doors-Alt_260'
+  - first:
+      213: -3829509498849544852
+    second: '!$Elevator Doors-Alt_261'
+  - first:
+      213: -954158024575600814
+    second: '!$Elevator Doors-Alt_262'
+  - first:
+      213: 7364923666867527831
+    second: '!$Elevator Doors-Alt_263'
+  - first:
+      213: -1050132001265568616
+    second: '!$Elevator Doors-Alt_264'
+  - first:
+      213: 5899136841307883258
+    second: '!$Elevator Doors-Alt_265'
+  - first:
+      213: -7492978120216872167
+    second: '!$Elevator Doors-Alt_266'
+  - first:
+      213: 887182427008682954
+    second: '!$Elevator Doors-Alt_267'
+  - first:
+      213: 1359612323792667646
+    second: '!$Elevator Doors-Alt_268'
+  - first:
+      213: 3083672044805048075
+    second: '!$Elevator Doors-Alt_269'
+  - first:
+      213: 8158921896591809825
+    second: '!$Elevator Doors-Alt_270'
+  - first:
+      213: 7299134780213625843
+    second: '!$Elevator Doors-Alt_271'
+  - first:
+      213: -4845550426454017307
+    second: '!$Elevator Doors-Alt_272'
+  - first:
+      213: -6148730632440911351
+    second: '!$Elevator Doors-Alt_273'
+  - first:
+      213: -7389124042535043299
+    second: '!$Elevator Doors-Alt_274'
+  - first:
+      213: -7899351133387727028
+    second: '!$Elevator Doors-Alt_275'
+  - first:
+      213: 8890556176022358137
+    second: '!$Elevator Doors-Alt_276'
+  - first:
+      213: -5980772896362595029
+    second: '!$Elevator Doors-Alt_277'
+  - first:
+      213: 6808868600049268055
+    second: '!$Elevator Doors-Alt_278'
+  - first:
+      213: 4837503464281509705
+    second: '!$Elevator Doors-Alt_279'
+  - first:
+      213: -3107767081598427102
+    second: '!$Elevator Doors-Alt_280'
+  - first:
+      213: -6911429781825736413
+    second: '!$Elevator Doors-Alt_281'
+  - first:
+      213: 7979282645261532081
+    second: '!$Elevator Doors-Alt_282'
+  - first:
+      213: 4007682018709517132
+    second: '!$Elevator Doors-Alt_283'
+  - first:
+      213: -3648277670633023491
+    second: '!$Elevator Doors-Alt_284'
+  - first:
+      213: 2127240377232563146
+    second: '!$Elevator Doors-Alt_285'
+  - first:
+      213: -123707257058242827
+    second: '!$Elevator Doors-Alt_286'
+  - first:
+      213: -5142368254099434557
+    second: '!$Elevator Doors-Alt_287'
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -127,9 +955,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
-        width: 96
-        height: 64
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +975,10 @@ TextureImporter:
       name: '!$Elevator Doors-Alt_1'
       rect:
         serializedVersion: 2
-        x: 96
-        y: 192
-        width: 96
-        height: 64
+        x: 32
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +996,10 @@ TextureImporter:
       name: '!$Elevator Doors-Alt_2'
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 96
-        height: 64
+        x: 64
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,10 +1017,10 @@ TextureImporter:
       name: '!$Elevator Doors-Alt_3'
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
-        width: 96
-        height: 64
+        x: 96
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +1038,10 @@ TextureImporter:
       name: '!$Elevator Doors-Alt_4'
       rect:
         serializedVersion: 2
-        x: 96
-        y: 128
-        width: 96
-        height: 64
+        x: 128
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,10 +1059,10 @@ TextureImporter:
       name: '!$Elevator Doors-Alt_5'
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
-        width: 96
-        height: 64
+        x: 160
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,10 +1080,10 @@ TextureImporter:
       name: '!$Elevator Doors-Alt_6'
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 96
-        height: 64
+        x: 192
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,10 +1101,10 @@ TextureImporter:
       name: '!$Elevator Doors-Alt_7'
       rect:
         serializedVersion: 2
-        x: 96
-        y: 64
-        width: 96
-        height: 64
+        x: 224
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +1122,10 @@ TextureImporter:
       name: '!$Elevator Doors-Alt_8'
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
-        width: 96
-        height: 64
+        x: 256
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,9 +1144,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 96
-        height: 64
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +1164,10 @@ TextureImporter:
       name: '!$Elevator Doors-Alt_10'
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 96
-        height: 64
+        x: 32
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,10 +1185,10 @@ TextureImporter:
       name: '!$Elevator Doors-Alt_11'
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 96
-        height: 64
+        x: 64
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,6 +1198,1266 @@ TextureImporter:
       bones: []
       spriteID: ad659341f65a2cca0800000000000000
       internalID: -5998049857204824358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_12'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257707614e1990000800000000000000
+      internalID: 2693683605436242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_13'
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3546744482f7ddea0800000000000000
+      internalID: -5846376930336086957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_14'
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e80509b38283e90800000000000000
+      internalID: -7045837380731761148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_15'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d87e64a9206a5b00800000000000000
+      internalID: 818072014289795280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_16'
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff074d2aed454b50800000000000000
+      internalID: 6576748499021795318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_17'
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f17c0f53123bd820800000000000000
+      internalID: 2944001840197169651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_18'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a9a8ccbe89fa660800000000000000
+      internalID: 7399300851309386373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_19'
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9b19c5a0b3f28f0800000000000000
+      internalID: -563166512709256717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_20'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c6599f2aa940a30800000000000000
+      internalID: 4180636378869361691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_21'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b91b5a488510170800000000000000
+      internalID: 8142886928001375118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_22'
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba7746138b2b0a00800000000000000
+      internalID: 723720007137589951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_23'
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89c7dcc191a25310800000000000000
+      internalID: 1392352882389928330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_24'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3f4407f6498b810800000000000000
+      internalID: 1781336858970878940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_25'
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5999610a7349acd40800000000000000
+      internalID: 5605455652845951381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_26'
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372cfe06f6bf0ffa0800000000000000
+      internalID: -5768834666875338125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_27'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4216af14687d26690800000000000000
+      internalID: -7610283448670199516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_28'
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51b1950b0afa1280800000000000000
+      internalID: -9071663574139424422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_29'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae54892598c356590800000000000000
+      internalID: -7681667028916615702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_30'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1525699ef4af6540800000000000000
+      internalID: 5003399124434101531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_31'
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e941b02bb226d1c0800000000000000
+      internalID: -4479354592270661143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_32'
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edca7a5512ee1850800000000000000
+      internalID: 6349761105979166183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_33'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652a6a7f5eba83a30800000000000000
+      internalID: 4195292057086370390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_34'
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d87cb37ae73e980800000000000000
+      internalID: -8510819614072533755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_35'
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecc73e1b2f6b8590800000000000000
+      internalID: -7670915309314257696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_36'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3511bda0f9bd72c30800000000000000
+      internalID: 4334674642495803731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_37'
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b0257b16c735f20800000000000000
+      internalID: 3410206101978876741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_38'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94639144a088d3a0800000000000000
+      internalID: -6640416207594625891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_39'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c19d9499ef24c640800000000000000
+      internalID: 5099253358357483976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_40'
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab959923785507180800000000000000
+      internalID: -9119695206267397702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_41'
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72507eef7c752500800000000000000
+      internalID: 370839433230963322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_42'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2583040625c62aed0800000000000000
+      internalID: -2404240150004484014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_43'
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093569a4c3e10ea20800000000000000
+      internalID: 3089502588674397072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_44'
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487dc1c1b6d902b70800000000000000
+      internalID: 8872264349278590852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_45'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8464095bee9a1f0800000000000000
+      internalID: -1033032175927801649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_46'
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6561df98cdf8410800000000000000
+      internalID: 1481645287642912477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_47'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fc770e5b7e0cb80800000000000000
+      internalID: -8376440538568077530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_48'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb69b5c11b441000800000000000000
+      internalID: 5712039238003676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_49'
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ed61a7cf1221a50800000000000000
+      internalID: 6490287381258100355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_50'
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa63a0bb60a3d7da0800000000000000
+      internalID: -5945532132476963153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_51'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9959dd46304760ac0800000000000000
+      internalID: -3889293670261877351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_52'
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cc63113d6455a10800000000000000
+      internalID: 1897500690347379841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_53'
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17e335a9a074be80800000000000000
+      internalID: -8163776350592440546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_54'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d418824dab4d140800000000000000
+      internalID: 4743621727903370506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_55'
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b358d0763b25ed9b0800000000000000
+      internalID: -5053510801381554885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_56'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f32a1ea194071d70800000000000000
+      internalID: 9013678202943054833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_57'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e24ec868ad1a42a0800000000000000
+      internalID: -6752552082138578205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_58'
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d2fe155575a6190800000000000000
+      internalID: -7968460566720205540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_59'
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780d7fa918ee12840800000000000000
+      internalID: 5197697685380386951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_60'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f63963f0f8614a90800000000000000
+      internalID: -7331463334297258251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_61'
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088061e833006cf40800000000000000
+      internalID: 5748282195812157568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_62'
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc84af216f4f8a60800000000000000
+      internalID: 7678443168519720178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_63'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5669b0eda92438400800000000000000
+      internalID: 325176831018505829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_64'
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0036a167a9073f200800000000000000
+      internalID: 212637416125260544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_65'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb1ea29fc2f10af0800000000000000
+      internalID: -431797115917820994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_66'
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6590d516f86a4fd0800000000000000
+      internalID: -2356956048837798549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_67'
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a2a71695da969a0800000000000000
+      internalID: -6239265209346020850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_68'
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e8f51a3a7aa0b30800000000000000
+      internalID: 4254397119233756801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_69'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f83ccfe3f781a510800000000000000
+      internalID: 1558676427816843507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_70'
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b193e3a88ab7ec60800000000000000
+      internalID: 7847445971744297396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!$Elevator Doors-Alt_71'
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb703a15578d64e0800000000000000
+      internalID: -1986783061019165755
       vertices: []
       indices: 
       edges: []
