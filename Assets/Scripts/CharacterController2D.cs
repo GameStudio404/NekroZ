@@ -70,7 +70,7 @@ public class CharacterController2D : MonoBehaviour
 					m_CrouchDisableCollider.enabled = true;
 			}
 			// And then smoothing it out and applying it to the character
-			m_Rigidbody2D.velocity = new Vector2(movex * 10f, movey * 5f);
+			m_Rigidbody2D.velocity = new Vector2(movex * 5f, movey * 5f);
 			// If the input is moving the player right and the player is facing left...
 			if (movex > 0 && !m_FacingRight)
 			{
