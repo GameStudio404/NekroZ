@@ -35,9 +35,112 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Game : MonoBehaviour
 {
+    public GameObject door;
+    public GameObject playerObj;
+    static Player player;
+
+    private enum Scenes
+    {
+        Lab,
+        Workshop,
+        Storage,
+        LivingRoom,
+        Kitchen,
+        Elevator,
+    };
+
+    void Start()
+    {
+        if (player == null) {
+            playerObj = GameObject.FindWithTag("Player");
+            player = new Player("Mike", playerObj);
+        } else
+        {
+            playerObj = player.getPlayer("Mike");
+            Debug.Log(playerObj);
+        }
+    }
+
+    void Update()
+    {
+        if (playerObj.transform.localPosition.y <= 1)
+        {
+            player.getPlayer().transform.localPosition = new Vector3(player.getPlayer().transform.localPosition.x,
+                player.getPlayer().transform.localPosition.y, -3);
+        } else
+        {
+            player.getPlayer().transform.localPosition = new Vector3(player.getPlayer().transform.localPosition.x,
+                player.getPlayer().transform.localPosition.y, -1);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collider2D)
+    {
+        Debug.Log($"x: {playerObj.transform.localPosition.x}," +
+            $"y: {playerObj.transform.localPosition.y}," +
+            $"z: {playerObj.transform.localPosition.z}");
+        switch (collider2D.name)
+        {
+            case "Lab":
+                Destroy(playerObj);
+                SceneManager.LoadScene(Scenes.Lab.ToString());
+                player.getPlayer().transform.localPosition = new Vector3(0, -5, -3);
+                break;
+            case "Workshop":
+                DontDestroyOnLoad(playerObj);
+                SceneManager.LoadScene(Scenes.Workshop.ToString());
+                player.getPlayer().transform.localPosition = new Vector3(-2, 7, -1);
+                break;
+            case "Workshop f Storage":
+                DontDestroyOnLoad(playerObj);
+                SceneManager.LoadScene(Scenes.Workshop.ToString());
+                player.getPlayer().transform.localPosition = new Vector3(-2, -6, -3);
+                break;
+            case "Workshop f LivingRoom":
+                DontDestroyOnLoad(playerObj);
+                SceneManager.LoadScene(Scenes.Workshop.ToString());
+                player.getPlayer().transform.localPosition = new Vector3(15, -5, -3);
+                break;
+            case "Storage":
+                DontDestroyOnLoad(playerObj);
+                SceneManager.LoadScene(Scenes.Storage.ToString());
+                player.getPlayer().transform.localPosition = new Vector3(0, 7, -1);
+                break;
+            case "LivingRoom":
+                DontDestroyOnLoad(playerObj);
+                SceneManager.LoadScene(Scenes.LivingRoom.ToString());
+                player.getPlayer().transform.localPosition = new Vector3(-16, 4, -1);
+                break;
+            case "LivingRoom f Kitchen":
+                DontDestroyOnLoad(playerObj);
+                SceneManager.LoadScene(Scenes.LivingRoom.ToString());
+                player.getPlayer().transform.localPosition = new Vector3(-6, 7, -1);
+                break;
+            case "LivingRoom f Elevator":
+                DontDestroyOnLoad(playerObj);
+                SceneManager.LoadScene(Scenes.LivingRoom.ToString());
+                player.getPlayer().transform.localPosition = new Vector3(2, -6, -1);
+                break;
+            case "Kitchen":
+                DontDestroyOnLoad(playerObj);
+                SceneManager.LoadScene(Scenes.Kitchen.ToString());
+                player.getPlayer().transform.localPosition = new Vector3(-12, -6, -3);
+                break;
+            case "Elevator":
+                DontDestroyOnLoad(playerObj);
+                SceneManager.LoadScene(Scenes.Elevator.ToString());
+                player.getPlayer().transform.localPosition = new Vector3(0, 7, -1);
+                break;
+            default:
+                Debug.Log("Other");
+                break;
+        }
+    }
+
     public void SaveGame()
     {
         Save save = CreateSaveGameObject();
