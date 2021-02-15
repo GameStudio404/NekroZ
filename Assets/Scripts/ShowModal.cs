@@ -6,12 +6,10 @@ using UnityEngine.UI;
 
 public class ShowModal : MonoBehaviour
 {
-    public GameObject Modal;
-    private Player player;
+    private GameObject Modal;
 
     void Start()
     {
-        //player = Player.getPlayer();
         Modal = GameObject.FindWithTag("Workshop modal");
         Modal.gameObject.SetActive(false);
     }

@@ -36,6 +36,10 @@ TagManager:
   - Ret
   - Craft
   - Craft1
+  - Backpack panel
+  - RC
+  - CC
+  - CM
   layers:
   - Default
   - TransparentFX

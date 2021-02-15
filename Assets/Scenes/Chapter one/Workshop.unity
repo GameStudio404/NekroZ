@@ -17320,7 +17320,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &588385203
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20508,7 +20508,7 @@ GameObject:
   - component: {fileID: 1089269561}
   m_Layer: 5
   m_Name: Content
-  m_TagString: Untagged
+  m_TagString: RC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -20531,7 +20531,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: -80}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1089269560
 MonoBehaviour:
@@ -24601,9 +24601,9 @@ RectTransform:
   m_Father: {fileID: 1089269559}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 30.5, y: -11}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 57, y: 18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1345217808
@@ -24963,9 +24963,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -2, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1381036000
 MonoBehaviour:
@@ -25114,38 +25114,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 964e352446501c541bb60329183e58b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Modal: {fileID: 2020783848}
-  BIT: {fileID: 1642231776}
-  RLT: {fileID: 1345217806}
-  contentR: {fileID: 1089269558}
-  contentB: {fileID: 521615803}
-  contentC: {fileID: 287216450}
-  ChosenRecipeImage: {fileID: 401160431}
-  Craft: {fileID: 765104233}
-  addCraft: {fileID: 1564263416}
-  ItemImages:
-  - {fileID: 21300000, guid: 5e84e7f794233b24984dc95414cc3a4e, type: 3}
-  - {fileID: 21300000, guid: 47c6db15bfb18c648a24efde1887c55d, type: 3}
-  - {fileID: 21300000, guid: 9cecc89eaa58a2944aba09c73bad170f, type: 3}
-  - {fileID: 21300000, guid: 80d423746cd89be49a1e67403e627c19, type: 3}
-  - {fileID: 21300000, guid: b42bacf6af4c47d4ea1965bcf05ccdb2, type: 3}
-  - {fileID: 21300000, guid: 3217a079d900a704687b5c4c489b9398, type: 3}
-  - {fileID: 21300000, guid: bf925bca97bfc584ba5a62d7cb75f5a3, type: 3}
-  - {fileID: 21300000, guid: 981e021ca219c7a4b90ce9c87cc9d6e6, type: 3}
-  RecipesImages:
-  - {fileID: 21300000, guid: 3217a079d900a704687b5c4c489b9398, type: 3}
-  - {fileID: 21300000, guid: bf925bca97bfc584ba5a62d7cb75f5a3, type: 3}
-  - {fileID: 21300000, guid: 981e021ca219c7a4b90ce9c87cc9d6e6, type: 3}
-  IngredientTable: []
-  matNames:
-  - wood
-  - coal
-  - copper
-  - iron
-  - gold
-  - wood key
-  - iron key
-  - gold key
 --- !u!1 &1564263416
 GameObject:
   m_ObjectHideFlags: 0
@@ -25158,7 +25126,6 @@ GameObject:
   - component: {fileID: 1564263420}
   - component: {fileID: 1564263419}
   - component: {fileID: 1564263418}
-  - component: {fileID: 1564263421}
   m_Layer: 5
   m_Name: Add
   m_TagString: Add
@@ -25266,31 +25233,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1564263416}
   m_CullTransparentMesh: 0
---- !u!114 &1564263421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1564263416}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 964e352446501c541bb60329183e58b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Modal: {fileID: 0}
-  BIT: {fileID: 0}
-  RLT: {fileID: 0}
-  contentR: {fileID: 0}
-  contentB: {fileID: 0}
-  contentC: {fileID: 0}
-  ChosenRecipeImage: {fileID: 0}
-  Craft: {fileID: 0}
-  addCraft: {fileID: 0}
-  ItemImages: []
-  RecipesImages: []
-  IngredientTable: []
-  matNames: []
 --- !u!1 &1575322949
 GameObject:
   m_ObjectHideFlags: 0
@@ -25379,7 +25321,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1589803770}
   - component: {fileID: 1589803769}
-  - component: {fileID: 1589803772}
   - component: {fileID: 1589803771}
   m_Layer: 5
   m_Name: Grid
@@ -25432,21 +25373,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8865af59db87c3643a9a74430eacb3a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Modal: {fileID: 2020783848}
---- !u!114 &1589803772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589803768}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85a9254b4b840694584dbcd9c257d7c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  door: {fileID: 0}
-  playerObj: {fileID: 0}
 --- !u!1 &1642231776
 GameObject:
   m_ObjectHideFlags: 0
@@ -25968,10 +25894,9 @@ GameObject:
   - component: {fileID: 1783475639}
   - component: {fileID: 1783475638}
   - component: {fileID: 1783475637}
-  - component: {fileID: 1783475640}
   m_Layer: 5
   m_Name: Close modal
-  m_TagString: Untagged
+  m_TagString: CM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -26037,18 +25962,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1783475638}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1783475640}
-        m_MethodName: closeModal
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1783475638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26086,31 +26000,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1783475635}
   m_CullTransparentMesh: 0
---- !u!114 &1783475640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1783475635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 964e352446501c541bb60329183e58b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Modal: {fileID: 0}
-  BIT: {fileID: 0}
-  RLT: {fileID: 0}
-  contentR: {fileID: 0}
-  contentB: {fileID: 0}
-  contentC: {fileID: 0}
-  ChosenRecipeImage: {fileID: 0}
-  Craft: {fileID: 0}
-  addCraft: {fileID: 0}
-  ItemImages: []
-  RecipesImages: []
-  IngredientTable: []
-  matNames: []
 --- !u!1 &1789750212
 GameObject:
   m_ObjectHideFlags: 0
@@ -26123,7 +26012,6 @@ GameObject:
   - component: {fileID: 1789750216}
   - component: {fileID: 1789750215}
   - component: {fileID: 1789750214}
-  - component: {fileID: 1789750217}
   m_Layer: 5
   m_Name: Retrieve
   m_TagString: Ret
@@ -26193,18 +26081,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1789750215}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1789750217}
-        m_MethodName: RetrieveItem
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1789750215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26242,31 +26119,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1789750212}
   m_CullTransparentMesh: 0
---- !u!114 &1789750217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1789750212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 964e352446501c541bb60329183e58b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Modal: {fileID: 0}
-  BIT: {fileID: 0}
-  RLT: {fileID: 0}
-  contentR: {fileID: 0}
-  contentB: {fileID: 0}
-  contentC: {fileID: 0}
-  ChosenRecipeImage: {fileID: 0}
-  Craft: {fileID: 0}
-  addCraft: {fileID: 0}
-  ItemImages: []
-  RecipesImages: []
-  IngredientTable: []
-  matNames: []
 --- !u!1 &1870287948
 GameObject:
   m_ObjectHideFlags: 0
@@ -26300,7 +26152,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -26729,19 +26581,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 964e352446501c541bb60329183e58b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Modal: {fileID: 0}
-  BIT: {fileID: 0}
-  RLT: {fileID: 0}
-  contentR: {fileID: 0}
-  contentB: {fileID: 0}
-  contentC: {fileID: 0}
-  ChosenRecipeImage: {fileID: 0}
-  Craft: {fileID: 0}
-  addCraft: {fileID: 0}
-  ItemImages: []
-  RecipesImages: []
-  IngredientTable: []
-  matNames: []
 --- !u!1 &1986417467
 GameObject:
   m_ObjectHideFlags: 0
@@ -26900,7 +26739,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2020783849
 MonoBehaviour:
   m_ObjectHideFlags: 0

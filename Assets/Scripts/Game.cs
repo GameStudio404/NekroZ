@@ -39,9 +39,11 @@ using UnityEngine.SceneManagement;
 
 public class Game : MonoBehaviour
 {
-    public GameObject door;
-    public GameObject playerObj;
+    public GameObject playerObj, BP, Modal;
     static Player player;
+    private List<Sprite> ItemImages = new List<Sprite>();
+    private Backpack backpack;
+
 
     private enum Scenes
     {
@@ -55,14 +57,12 @@ public class Game : MonoBehaviour
 
     void Start()
     {
-        if (player == null) {
-            playerObj = GameObject.FindWithTag("Player");
-            player = new Player("Mike", playerObj);
-        } else
-        {
-            playerObj = player.getPlayer("Mike");
-            Debug.Log(playerObj);
-        }
+        initSprites();
+        initBackpack();
+        playerObj = GameObject.FindWithTag("Player");
+        player = new Player("Mike", playerObj);
+        BP = GameObject.FindWithTag("Backpack panel");
+        generateBackpack(backpack.GetBackpack(), "BIT");
     }
 
     void Update()
@@ -78,65 +78,119 @@ public class Game : MonoBehaviour
         }
     }
 
+    private void initSprites()
+    {
+        Sprite[] materials = Resources.LoadAll<Sprite>("Materials");
+        for (var i = 0; i < materials.Length; i++)
+        {
+            ItemImages.Add(materials[i]);
+        }
+    }
+
+    private void initBackpack()
+    {
+        backpack = new Backpack();
+        //backpack.AddMaterial(ItemImages[0].name, new Material(0, ItemImages[0], ItemImages[0].name, 1, 0));
+        for (int i = 0;i< ItemImages.Count; i++)
+            backpack.AddMaterial(ItemImages[i].name, new Material(i, ItemImages[i], ItemImages[i].name, 10, 0));
+    }
+
+    void generateBackpack(Dictionary<string, Material> backpack, string tag)
+    {
+        GameObject BIT = GameObject.FindWithTag(tag);
+        int i = 0;
+        GameObject contentB = GameObject.FindWithTag("BC");
+        foreach (var entry in backpack)
+        {
+            var addButton = Instantiate(BIT, transform);
+            addButton.transform.SetParent(contentB.transform);
+            addButton.transform.tag = ("BB" + i).ToString();
+            addButton.transform.name = ("BB" + i).ToString();
+            addButton.transform.localScale = Vector3.one;
+            addButton.transform.GetChild(0).GetComponentInChildren<Image>().sprite = entry.Value.GetSprite();
+            addButton.transform.GetChild(1).GetComponentInChildren<Text>().text = entry.Value.GetNb().ToString();
+            addButton.transform.GetChild(2).GetComponentInChildren<Text>().text = entry.Value.GetSelected() > 0 ?
+                entry.Value.GetSelected().ToString() : "";
+            addButton.GetComponent<Button>().onClick.AddListener(
+                    () => selection(entry, entry.Value.GetId())
+                );
+            i++;
+        }
+        Destroy(BIT);
+    }
+
+    void selection(KeyValuePair<string, Material> Material, int id)
+    {
+        Material.Value.SetSelected(Material.Value.GetSelected() + 1);
+        GameObject ob = GameObject.FindWithTag($"BB{id}");
+        ob.transform.GetChild(2).GetComponentInChildren<Text>().text = Material.Value.GetSelected().ToString();
+    }
+
     private void OnTriggerEnter2D(Collider2D collider2D)
     {
-        Debug.Log($"x: {playerObj.transform.localPosition.x}," +
-            $"y: {playerObj.transform.localPosition.y}," +
-            $"z: {playerObj.transform.localPosition.z}");
         switch (collider2D.name)
         {
             case "Lab":
                 Destroy(playerObj);
+                Destroy(BP);
                 SceneManager.LoadScene(Scenes.Lab.ToString());
                 player.getPlayer().transform.localPosition = new Vector3(0, -5, -3);
                 break;
             case "Workshop":
                 DontDestroyOnLoad(playerObj);
+                DontDestroyOnLoad(BP);
                 SceneManager.LoadScene(Scenes.Workshop.ToString());
                 player.getPlayer().transform.localPosition = new Vector3(-2, 7, -1);
                 break;
             case "Workshop f Storage":
                 DontDestroyOnLoad(playerObj);
+                DontDestroyOnLoad(BP);
                 SceneManager.LoadScene(Scenes.Workshop.ToString());
                 player.getPlayer().transform.localPosition = new Vector3(-2, -6, -3);
                 break;
             case "Workshop f LivingRoom":
                 DontDestroyOnLoad(playerObj);
+                DontDestroyOnLoad(BP);
                 SceneManager.LoadScene(Scenes.Workshop.ToString());
                 player.getPlayer().transform.localPosition = new Vector3(15, -5, -3);
                 break;
             case "Storage":
                 DontDestroyOnLoad(playerObj);
+                DontDestroyOnLoad(BP);
                 SceneManager.LoadScene(Scenes.Storage.ToString());
                 player.getPlayer().transform.localPosition = new Vector3(0, 7, -1);
                 break;
             case "LivingRoom":
                 DontDestroyOnLoad(playerObj);
+                DontDestroyOnLoad(BP);
                 SceneManager.LoadScene(Scenes.LivingRoom.ToString());
                 player.getPlayer().transform.localPosition = new Vector3(-16, 4, -1);
                 break;
             case "LivingRoom f Kitchen":
                 DontDestroyOnLoad(playerObj);
+                DontDestroyOnLoad(BP);
                 SceneManager.LoadScene(Scenes.LivingRoom.ToString());
                 player.getPlayer().transform.localPosition = new Vector3(-6, 7, -1);
                 break;
             case "LivingRoom f Elevator":
                 DontDestroyOnLoad(playerObj);
+                DontDestroyOnLoad(BP);
                 SceneManager.LoadScene(Scenes.LivingRoom.ToString());
                 player.getPlayer().transform.localPosition = new Vector3(2, -6, -1);
                 break;
             case "Kitchen":
                 DontDestroyOnLoad(playerObj);
+                DontDestroyOnLoad(BP);
                 SceneManager.LoadScene(Scenes.Kitchen.ToString());
                 player.getPlayer().transform.localPosition = new Vector3(-12, -6, -3);
                 break;
             case "Elevator":
                 DontDestroyOnLoad(playerObj);
+                DontDestroyOnLoad(BP);
                 SceneManager.LoadScene(Scenes.Elevator.ToString());
                 player.getPlayer().transform.localPosition = new Vector3(0, 7, -1);
                 break;
             default:
-                Debug.Log("Other");
                 break;
         }
     }
