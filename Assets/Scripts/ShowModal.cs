@@ -11,14 +11,9 @@ public class ShowModal : MonoBehaviour
     void Start()
     {
         Modal = GameObject.FindWithTag("Workshop modal");
-        Modal.gameObject.SetActive(false);
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            Modal.gameObject.SetActive(!Modal.activeSelf);
-        }
     }
 }

@@ -57,12 +57,20 @@ public class Game : MonoBehaviour
 
     void Start()
     {
+        GameObject go = GameObject.FindWithTag("BB0");
         initSprites();
         initBackpack();
         playerObj = GameObject.FindWithTag("Player");
         player = new Player("Mike", playerObj);
-        BP = GameObject.FindWithTag("Backpack panel");
-        generateBackpack(backpack.GetBackpack(), "BIT");
+        if (!go)
+        {
+            BP = GameObject.FindWithTag("Backpack panel");
+            generateBackpack(backpack.GetBackpack(), "BIT");
+        } else
+        {
+            Destroy(GameObject.FindWithTag("Backpack panel"));
+            BP = GameObject.FindWithTag("BP");
+        }
     }
 
     void Update()
@@ -98,6 +106,8 @@ public class Game : MonoBehaviour
     void generateBackpack(Dictionary<string, Material> backpack, string tag)
     {
         GameObject BIT = GameObject.FindWithTag(tag);
+        BP.transform.tag = "BP";
+        BP = GameObject.FindWithTag("BP");
         int i = 0;
         GameObject contentB = GameObject.FindWithTag("BC");
         foreach (var entry in backpack)
@@ -117,6 +127,7 @@ public class Game : MonoBehaviour
             i++;
         }
         Destroy(BIT);
+
     }
 
     void selection(KeyValuePair<string, Material> Material, int id)
@@ -132,7 +143,7 @@ public class Game : MonoBehaviour
         {
             case "Lab":
                 Destroy(playerObj);
-                Destroy(BP);
+                DontDestroyOnLoad(BP);
                 SceneManager.LoadScene(Scenes.Lab.ToString());
                 player.getPlayer().transform.localPosition = new Vector3(0, -5, -3);
                 break;

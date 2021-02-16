@@ -16,20 +16,19 @@ public class FillData : MonoBehaviour
     private KeyValuePair<string, Recipe> currentRecipe = new KeyValuePair<string, Recipe>();
     public static int j = 0;
 
-
+    //retrieve the backpack and every necessary gameObjects, sprites, recipes
+    //On the 1st day, God created the universe
     void Start()
     {
         RLT = GameObject.FindWithTag("RLT");
         BC = GameObject.FindWithTag("BC");
         Modal = GameObject.FindWithTag("Workshop modal");
         CM = GameObject.FindWithTag("CM");
+        Craft = GameObject.FindWithTag("Craft");
         CM.GetComponent<Button>().onClick.AddListener(() => closeModal());
         backpack = new Backpack();
         fillBackpack();
         initSprites();
-        Craft = GameObject.FindWithTag("Craft");
-        //if (Craft)
-        Craft.gameObject.SetActive(false);
         List<string> names = new List<string>() {
             "Wood key",
             "Iron key",
@@ -60,8 +59,20 @@ public class FillData : MonoBehaviour
         }
         generateRecipes(recipes);
         Destroy(RLT);
+        Modal.gameObject.SetActive(false);
     }
 
+    //interact with the modal
+    void Update()
+    {
+       if (Input.GetKeyDown(KeyCode.E))
+        {
+            Modal.gameObject.SetActive(!Modal.activeSelf);
+        }
+    }
+
+
+    //retrieve the sprites for the recipes and materials
     private void initSprites()
     {
         Sprite[] recipes = Resources.LoadAll<Sprite>("Keys");
@@ -77,6 +88,7 @@ public class FillData : MonoBehaviour
         }
     }
 
+    //retieve backpack
     private void fillBackpack()
     {
         for (int a = 0; a < 9; a++)
@@ -94,39 +106,55 @@ public class FillData : MonoBehaviour
         }
     }
 
+    //Generate and display available recipes
     void generateRecipes(Dictionary<string, Recipe> recipes)
     {
         RC = GameObject.FindWithTag("RC");
+        int i = 1;
+        int j = 0;
+        RLT = GameObject.FindWithTag("RB0") == null ? GameObject.FindWithTag("RLT") : GameObject.FindWithTag("RB0");
         foreach (KeyValuePair<string, Recipe> elem in recipes)
         {
+            GameObject obj = GameObject.FindWithTag($"RB{i}");
+            if (obj)
+                Destroy(obj);
             var addButton = Instantiate(RLT);
             addButton.transform.SetParent(RC.transform);
             addButton.transform.localScale = Vector3.one;
+            addButton.transform.tag = $"RB{j}";
+            addButton.transform.name = $"RB{j}";
             addButton.GetComponentInChildren<Text>().text = elem.Value.GetName();
             addButton.transform.GetChild(0).GetComponentInChildren<Image>().sprite = elem.Value.GetSprite();
-           addButton.GetComponent<Button>().onClick.AddListener(
+            addButton.GetComponent<Button>().onClick.AddListener(
                     () => dispatch(elem)
                 );
+            i++;
+            j++;
         }
+        Destroy(RLT);
     }
 
+    //clear the table after crafting or recipe selection
     void clearIngredientTable()
     {
         for (int i = 0; i < 9; i++)
         {
             GameObject ob = GameObject.FindWithTag($"RI{i}");
-            ob.transform.GetChild(0).GetComponentInChildren<Image>().sprite = null;
+            ob.transform.GetChild(0).GetComponentInChildren<Image>().sprite =
+            UnityEditor.AssetDatabase.GetBuiltinExtraResource<Sprite>("UI/Skin/UIMask.psd");
             ob.transform.GetChild(1).GetComponentInChildren<Text>().text = "";
             ob.transform.GetChild(2).GetComponentInChildren<Text>().text = "";
         }
     }
 
+    //remove every material in the backpack (only on the screen)
     void clearBackpack(int until)
     {
         for (int i = 1; i < until; i++)
             Destroy(GameObject.FindWithTag($"BB{i}"));
     }
 
+    //update the backpack (on the screen), to only display the required material for the recipe
     void updateBackpackForRecipe(Backpack backpack, KeyValuePair<string, Recipe> recipe)
     {
         int i = 1;
@@ -134,7 +162,9 @@ public class FillData : MonoBehaviour
         BIT = GameObject.FindWithTag("BB0");
         foreach (KeyValuePair<string, Material> Material in backpack.GetBackpack())
         {
-            Destroy(GameObject.FindWithTag($"BB{i}"));
+            GameObject obj = GameObject.FindWithTag($"BB{i}");
+            if (obj)
+                Destroy(obj);
             if (j < recipe.Value.GetIngredients().Count)
             {
                 if (Material.Key == recipe.Value.GetIngredients()[j].GetName())
@@ -160,13 +190,7 @@ public class FillData : MonoBehaviour
         Destroy(BIT);
     }
 
-    void selection(KeyValuePair<string, Material> Material, int id)
-    {
-        Material.Value.SetSelected(Material.Value.GetSelected() + 1);
-        GameObject ob = GameObject.FindWithTag($"BB{id}");
-        ob.transform.GetChild(2).GetComponentInChildren<Text>().text = Material.Value.GetSelected().ToString();
-    }
-
+    //fully display the backpack on the screen
     void generateBackpack(Backpack backpack, string tag)
     {
         BIT = GameObject.FindWithTag(tag);
@@ -190,18 +214,11 @@ public class FillData : MonoBehaviour
         Destroy(BIT);
     }
 
-    public void closeModal()
-    {
-        Modal.gameObject.SetActive(false);
-    }
-
+    //display the info about the chosen recipe
+    //replace the ingredients table by the required ones
     void dispatch(KeyValuePair<string, Recipe> recipe)
     {
-        Craft.gameObject.SetActive(false);
         currentRecipe = recipe;
-        Craft.GetComponent<Button>().onClick.AddListener(
-                    () => craft(backpack)
-                );
         Debug.Log($"{recipe.Value.GetName()} recipe chosen.");
         updateBackpackForRecipe(backpack, recipe);
         ChosenRecipeImage = GameObject.FindWithTag("CR");
@@ -217,17 +234,25 @@ public class FillData : MonoBehaviour
         }
         GameObject add = GameObject.FindWithTag("Add");
         add.GetComponent<Button>().onClick.AddListener(() => AddItem(backpack, recipe));
+        GameObject ret = GameObject.FindWithTag("Ret");
+        ret.GetComponent<Button>().onClick.AddListener(() => RetrieveItem(recipe, 0));
     }
 
+    public void closeModal()
+    {
+        Modal.gameObject.SetActive(false);
+    }
+
+    //check if all the required ingredients have been given
     private bool checkGiven()
     {
         for (int a = 0; a < 9; a++)
         {
-            var BB = GameObject.FindWithTag($"RI{a}");
-            if (BB != null)
+            GameObject RI = GameObject.FindWithTag($"RI{a}");
+            if (RI != null)
             {
-                string nb = BB.transform.GetChild(2).GetComponentInChildren<Text>().text == "" ?
-                    "0" : BB.transform.GetChild(2).GetComponentInChildren<Text>().text;
+                string nb = RI.transform.GetChild(2).GetComponentInChildren<Text>().text == "" ?
+                    "0" : RI.transform.GetChild(2).GetComponentInChildren<Text>().text;
                 if (int.Parse(nb) > 0)
                     return false;
             }
@@ -235,6 +260,17 @@ public class FillData : MonoBehaviour
         return true;
     }
 
+    //display the number of selected material you want to tranfert to the crafting table
+    void selection(KeyValuePair<string, Material> Material, int id)
+    {
+        Material.Value.SetSelected(Material.Value.GetSelected() + 1);
+        GameObject ob = GameObject.FindWithTag($"BB{id}");
+        ob.transform.GetChild(2).GetComponentInChildren<Text>().text = Material.Value.GetSelected().ToString();
+    }
+
+    //add the selected ingredient from the backpack
+    //transfer them to the ingredients table
+    //unlock the craft button if all the required ingredients are validated
     public void AddItem(Backpack bk, KeyValuePair<string, Recipe> recipe)
     {
         foreach (KeyValuePair<string, Material> Material in bk.GetBackpack())
@@ -259,28 +295,73 @@ public class FillData : MonoBehaviour
             }
         }
         if (checkGiven())
-            Craft.gameObject.SetActive(true);
+        {
+            Craft.GetComponent<Button>().onClick.AddListener(
+                () => craft(backpack)
+            );
+            Craft.GetComponent<Image>().color = new Color32(166, 0, 0, 255);
+        }
     }
 
-    //public void RetrieveItem()
-    //{
-    //    Debug.Log("RetrieveItem");
-    //}
+    void reset(Backpack backpack, KeyValuePair<string, Recipe> recipe)
+    {
+        Craft.GetComponent<Image>().color = new Color32(70, 70, 70, 255);
+        clearIngredientTable();
+        ChosenRecipeImage = GameObject.FindWithTag("CR");
+        ChosenRecipeImage.GetComponent<Image>().sprite =
+            UnityEditor.AssetDatabase.GetBuiltinExtraResource<Sprite>("UI/Skin/UIMask.psd");
+        clearBackpack(currentRecipe.Value.GetIngredients().Count);
+        generateBackpack(backpack, "BB0");
+        currentRecipe = new KeyValuePair<string, Recipe>();
+    }
 
+    //retrieve the unnecessary amount of given materials
+    //or all the given materials if th craft wasn't completed
+    private void RetrieveItem(KeyValuePair<string, Recipe> recipe, int flag)
+    {
+        for (int a = 0; a < recipe.Value.GetIngredients().Count; a++)
+        {
+            GameObject RI = GameObject.FindWithTag($"RI{a}");
+            GameObject BB = GameObject.FindWithTag($"BB{a}");
+            if (BB != null && RI != null)
+            {
+                string material = RI.transform.GetChild(0).GetComponentInChildren<Image>().sprite.name;
+                int required = recipe.Value.GetIngredients()[a].GetNb();
+                int given = int.Parse(RI.transform.GetChild(1).GetComponentInChildren<Text>().text == "" ?
+                    "0": RI.transform.GetChild(1).GetComponentInChildren<Text>().text);
+                if (given > required && flag == 1)
+                {
+                    var diff = Math.Abs(required - given);
+                    backpack.GetBackpack()[material].SetNb(
+                            int.Parse(BB.transform.GetChild(1).GetComponentInChildren<Text>().text) + diff
+                            );
+                    Debug.Log($"{diff} {material} retrieved");
+                }
+                else if (flag == 0)
+                {
+                    Debug.Log(a);
+                    Debug.Log(material);
+                    backpack.GetBackpack()[material].SetNb(
+                            int.Parse(BB.transform.GetChild(1).GetComponentInChildren<Text>().text) + given
+                            );
+                    Debug.Log($"{given} {material} retrieved");
+                    reset(backpack, recipe);
+                }
+            }
+        }
+    }
+
+    //craft the chosen itam from the recipe, update the backpack
+    //God resets the universe
     void craft(Backpack backpack)
     {
         if (currentRecipe.Key == null)
             return;
+        RetrieveItem(currentRecipe, 1);
         Material material = new Material(backpack.GetBackpack().Count,
             ItemImages[currentRecipe.Key], currentRecipe.Key, 1, 0);
         backpack.AddMaterial(currentRecipe.Key, material);
-        Craft.gameObject.SetActive(false);
-        clearIngredientTable();
-        ChosenRecipeImage = GameObject.FindWithTag("CR");
-        ChosenRecipeImage.GetComponent<Image>().sprite = null;
         Debug.Log($"{currentRecipe.Key} crafted!");
-        clearBackpack(currentRecipe.Value.GetIngredients().Count);
-        generateBackpack(backpack, "BB0");
-        currentRecipe = new KeyValuePair<string, Recipe>();
+        reset(backpack, currentRecipe);
     }
 }

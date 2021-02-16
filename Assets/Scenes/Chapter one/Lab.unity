@@ -23249,7 +23249,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!4 &1879816141
 Transform:
@@ -23281,6 +23281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerObj: {fileID: 1879816135}
   BP: {fileID: 0}
+  Modal: {fileID: 0}
 --- !u!1 &1885902230
 GameObject:
   m_ObjectHideFlags: 0

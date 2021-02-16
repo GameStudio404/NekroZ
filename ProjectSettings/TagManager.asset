@@ -40,6 +40,16 @@ TagManager:
   - RC
   - CC
   - CM
+  - RB0
+  - RB1
+  - RB2
+  - RB3
+  - RB4
+  - RB5
+  - RB6
+  - RB7
+  - RB8
+  - BP
   layers:
   - Default
   - TransparentFX
