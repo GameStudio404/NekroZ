@@ -50,6 +50,8 @@ TagManager:
   - RB7
   - RB8
   - BP
+  - FM
+  - fireplace
   layers:
   - Default
   - TransparentFX
