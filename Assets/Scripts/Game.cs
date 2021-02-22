@@ -43,6 +43,7 @@ public class Game : MonoBehaviour
     static Player player;
     private List<Sprite> ItemImages = new List<Sprite>();
     private Backpack backpack;
+    private Sprite[] empty;
 
 
     private enum Scenes
@@ -89,6 +90,7 @@ public class Game : MonoBehaviour
     private void initSprites()
     {
         Sprite[] materials = Resources.LoadAll<Sprite>("Materials");
+        //empty = Resources.LoadAll<Sprite>("utils");
         for (var i = 0; i < materials.Length; i++)
         {
             ItemImages.Add(materials[i]);
@@ -98,9 +100,15 @@ public class Game : MonoBehaviour
     private void initBackpack()
     {
         backpack = new Backpack();
-        //backpack.AddMaterial(ItemImages[0].name, new Material(0, ItemImages[0], ItemImages[0].name, 1, 0));
-        for (int i = 0;i< ItemImages.Count; i++)
-            backpack.AddMaterial(ItemImages[i].name, new Material(i, ItemImages[i], ItemImages[i].name, 10, 0));
+        //backpack.AddMaterial(ItemImages[0].name, new Material(0, ItemImages[0], ItemImages[0].name, 1, 0, $"refined {ItemImages[0].name}", 0));
+        //backpack.AddMaterial(ItemImages[1].name, new Material(1, ItemImages[1], ItemImages[1].name, 1, 0, $"refined {ItemImages[1].name}", 0));
+        int j = 0;
+        for (int i = 0; i < ItemImages.Count; i++)
+        {
+            if (!ItemImages[i].name.Contains("refined") && !ItemImages[i].name.Contains("empty"))
+                backpack.AddMaterial(ItemImages[i].name, new Material(j++, ItemImages[i], ItemImages[i].name,
+                    10, 0, $"refined {ItemImages[i].name}", 0));
+        }
     }
 
     void generateBackpack(Dictionary<string, Material> backpack, string tag)
@@ -126,6 +134,21 @@ public class Game : MonoBehaviour
                 );
             i++;
         }
+        //if (i < 8)
+        //{
+        //    while (i < 9)
+        //    {
+        //        var addButton = Instantiate(BIT, transform);
+        //        addButton.transform.SetParent(contentB.transform);
+        //        addButton.transform.tag = ("BB" + i).ToString();
+        //        addButton.transform.name = ("BB" + i).ToString();
+        //        addButton.transform.localScale = Vector3.one;
+        //        addButton.transform.GetChild(0).GetComponentInChildren<Image>().sprite = empty[0];
+        //        addButton.transform.GetChild(1).GetComponentInChildren<Text>().text = "";
+        //        addButton.transform.GetChild(2).GetComponentInChildren<Text>().text = "";
+        //        i++;
+        //    }
+        //}
         Destroy(BIT);
 
     }
@@ -133,7 +156,7 @@ public class Game : MonoBehaviour
     void selection(KeyValuePair<string, Material> Material, int id)
     {
         Material.Value.SetSelected(Material.Value.GetSelected() + 1);
-        GameObject ob = GameObject.FindWithTag($"BB{id}");
+        GameObject ob = GameObject.Find($"BB{id}");
         ob.transform.GetChild(2).GetComponentInChildren<Text>().text = Material.Value.GetSelected().ToString();
     }
 

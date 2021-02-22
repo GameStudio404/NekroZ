@@ -20,7 +20,6 @@ public class ProgressBarTimer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        toFuse = int.Parse(fuse.text);
         goal = 3;
         begin = 0;
     }
@@ -28,13 +27,14 @@ public class ProgressBarTimer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        toFuse = int.Parse(fuse.text);
         if (toFuse > 0)
         {
             on.text = $"{Math.Round(current)}s";
+            reach.text = "";
             to.text = $"{goal}s";
             fill = current / (float)goal;
         }
-        //Debug.Log($"current: {Math.Round(current)}, current: {current}");
         if (current < (float)goal)
         {
             current += Time.deltaTime;
@@ -42,6 +42,7 @@ public class ProgressBarTimer : MonoBehaviour
         }
     }
 
+    //fill amount
     void GetFill()
     {
         if (current >= (float)goal)
@@ -54,6 +55,7 @@ public class ProgressBarTimer : MonoBehaviour
             }
             else
             {
+                current = 0f;
                 on.text = "";
                 to.text = "";
                 reach.text = "Done";

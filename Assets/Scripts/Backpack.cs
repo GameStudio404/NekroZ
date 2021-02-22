@@ -40,14 +40,18 @@ public class Material
     private string name = null;
     private int nb = 0;
     private int selected = 0;
+    private string refinedName = null;
+    private int refiningCost = 0;
 
-    public Material(int newId, Sprite img, string newName, int newNb, int isSelected)
+    public Material(int newId, Sprite img, string newName, int newNb, int isSelected, string rName, int rCost)
     {
         id = newId;
         sprite = img;
         name = newName;
         nb = newNb;
         selected = isSelected;
+        refinedName = rName;
+        refiningCost = rCost;
         Debug.Log($"The {name} material has been created!");
     }
 

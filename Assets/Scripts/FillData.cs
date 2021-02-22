@@ -35,7 +35,7 @@ public class FillData : MonoBehaviour
             "Gold key"
         };
         ingredients.Add(new List<RecipeIngredient>() {
-            new RecipeIngredient(ItemImages["wood"], "wood" , 2)
+            new RecipeIngredient(ItemImages["refined wood"], "refined wood" , 2)
         });
         ingredients.Add(new List<RecipeIngredient>() {
             new RecipeIngredient(ItemImages["copper"], "copper" , 2),
@@ -97,11 +97,12 @@ public class FillData : MonoBehaviour
             if (BB != null)
             {
                 Sprite sprite = BB.transform.GetChild(0).GetComponentInChildren<Image>().sprite;
-                string name = BB.transform.GetChild(0).GetComponentInChildren<Image>().sprite.name;
+                string name = sprite.name;
                 string nb = BB.transform.GetChild(1).GetComponentInChildren<Text>().text;
                 string selected = BB.transform.GetChild(2).GetComponentInChildren<Text>().text == "" ?
                     "0" : BB.transform.GetChild(2).GetComponentInChildren<Text>().text;
-                backpack.AddMaterial(name, new Material(a, sprite, name, int.Parse(nb), int.Parse(selected)));
+                backpack.AddMaterial(name, new Material(a, sprite, name, int.Parse(nb), int.Parse(selected),
+                    $"refined {name}", 0));
             }
         }
     }
@@ -339,8 +340,6 @@ public class FillData : MonoBehaviour
                 }
                 else if (flag == 0)
                 {
-                    Debug.Log(a);
-                    Debug.Log(material);
                     backpack.GetBackpack()[material].SetNb(
                             int.Parse(BB.transform.GetChild(1).GetComponentInChildren<Text>().text) + given
                             );
@@ -359,7 +358,7 @@ public class FillData : MonoBehaviour
             return;
         RetrieveItem(currentRecipe, 1);
         Material material = new Material(backpack.GetBackpack().Count,
-            ItemImages[currentRecipe.Key], currentRecipe.Key, 1, 0);
+            ItemImages[currentRecipe.Key], currentRecipe.Key, 1, 0, null, 0);
         backpack.AddMaterial(currentRecipe.Key, material);
         Debug.Log($"{currentRecipe.Key} crafted!");
         reset(backpack, currentRecipe);
