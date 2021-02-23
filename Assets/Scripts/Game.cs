@@ -39,7 +39,7 @@ using UnityEngine.SceneManagement;
 
 public class Game : MonoBehaviour
 {
-    public GameObject playerObj, BP, Modal;
+    public GameObject playerObj, BP;
     static Player player;
     private List<Sprite> ItemImages = new List<Sprite>();
     private Backpack backpack;
@@ -90,6 +90,7 @@ public class Game : MonoBehaviour
     private void initSprites()
     {
         Sprite[] materials = Resources.LoadAll<Sprite>("Materials");
+        Debug.Log(materials.Length);
         //empty = Resources.LoadAll<Sprite>("utils");
         for (var i = 0; i < materials.Length; i++)
         {
