@@ -11,4 +11,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chapter one/Lab.unity
     guid: cd6fbc3e7ee7f9948a4dbfa3aace2e0f
+  - enabled: 1
+    path: Assets/Scenes/Chapter one/Workshop.unity
+    guid: 8da5f6fe130e5fb4bbc43084d9356841
+  - enabled: 1
+    path: Assets/Scenes/Chapter one/Storage.unity
+    guid: 5d3e8cfd2934b4544bdda6e11c728a7d
+  - enabled: 1
+    path: Assets/Scenes/Chapter one/LivingRoom.unity
+    guid: 3e1bb48523cb8a14193a25bf8d69d5e3
+  - enabled: 1
+    path: Assets/Scenes/Chapter one/Kitchen.unity
+    guid: bea1cff515632cc48a979ab5a2bafb57
+  - enabled: 1
+    path: Assets/Scenes/Chapter one/Elevator.unity
+    guid: 1cfb4a2e22c4a604392fea49a7f0c17b
   m_configObjects: {}

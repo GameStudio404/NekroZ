@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class RecipeIngredient
 {
-    public Sprite sprite = null;
-    public string name = null;
-    public int nb = 0;
+    private Sprite sprite = null;
+    private string name = null;
+    private int nb = 0;
 
     public RecipeIngredient(Sprite img, string newName, int times)
     {
@@ -14,5 +14,20 @@ public class RecipeIngredient
         name = newName;
         nb = times;
         Debug.Log($"Ingredient {name} created");
+    }
+
+    public Sprite GetSprite()
+    {
+        return sprite;
+    }
+
+    public string GetName()
+    {
+        return name;
+    }
+
+    public int GetNb()
+    {
+        return nb;
     }
 }
