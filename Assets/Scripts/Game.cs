@@ -43,7 +43,7 @@ public class Game : MonoBehaviour
     static Player player;
     private List<Sprite> ItemImages = new List<Sprite>();
     private Backpack backpack;
-    private Sprite[] empty;
+    //private Sprite[] empty;
 
 
     private enum Scenes
@@ -76,10 +76,14 @@ public class Game : MonoBehaviour
 
     void Update()
     {
-        if (playerObj.transform.localPosition.y <= 1)
+        if (playerObj.transform.localPosition.y <= -4)
         {
             player.getPlayer().transform.localPosition = new Vector3(player.getPlayer().transform.localPosition.x,
                 player.getPlayer().transform.localPosition.y, -3);
+        } else if (playerObj.transform.localPosition.y <= 2)
+        {
+            player.getPlayer().transform.localPosition = new Vector3(player.getPlayer().transform.localPosition.x,
+                player.getPlayer().transform.localPosition.y, -2);
         } else
         {
             player.getPlayer().transform.localPosition = new Vector3(player.getPlayer().transform.localPosition.x,
@@ -90,7 +94,6 @@ public class Game : MonoBehaviour
     private void initSprites()
     {
         Sprite[] materials = Resources.LoadAll<Sprite>("Materials");
-        Debug.Log(materials.Length);
         //empty = Resources.LoadAll<Sprite>("utils");
         for (var i = 0; i < materials.Length; i++)
         {
