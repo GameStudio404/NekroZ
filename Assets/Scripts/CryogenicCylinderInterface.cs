@@ -16,14 +16,17 @@ public class CryogenicCylinderInterface : MonoBehaviour
 
     public void CheckCode()
     {
+        Sprite EmptyCylinder = Resources.Load("");
         String code = "4242";
         if (input.text == code) {
             input.text = "Félicitations !";
+            gameObject.GetComponent<UnityEngine.UI.Image>().sprite = EmptyCylinder;
+
             // change sprite
             // unlock character
             // quit interface
         } else {
-            input.text = "Code faux veuillez réessayer !";
+            input.text = "Code faux, veuillez réessayer !";
         }
     }
 
@@ -32,12 +35,12 @@ public class CryogenicCylinderInterface : MonoBehaviour
         // Get clicked key
         Button key = GetComponent<Button>();
         // Display it on screen
-        // InputField input = GameObject.Find("InputField").GetComponent<InputField>();
         input.text += key.GetComponentInChildren<Text>().text;
     }
 
     public void EraseValue()
     {
+        // delete last character
         if (input.text.Length > 0)
             input.text = input.text.Remove(input.text.Length - 1, 1);
     }
