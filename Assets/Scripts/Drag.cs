@@ -24,7 +24,7 @@ public class Drag : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHand
     //item follows the mouse
     public void OnDrag(PointerEventData data)
     {
-        rt.anchoredPosition += data.delta * new Vector2((float)0.15, (float)0.8);
+        rt.anchoredPosition += data.delta * new Vector2((float)0.15, (float)0.15);
     }
 
     public void OnEndDrag(PointerEventData data)

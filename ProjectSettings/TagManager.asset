@@ -9,9 +9,7 @@ TagManager:
   - D
   - Tuto canvas
   - Z
-  - Workshop modal
   - RLT
-  - BIT
   - CR
   - RI0
   - RI1
@@ -23,15 +21,6 @@ TagManager:
   - RI7
   - RI8
   - BC
-  - BB0
-  - BB1
-  - BB2
-  - BB3
-  - BB4
-  - BB5
-  - BB6
-  - BB7
-  - BB8
   - Add
   - Ret
   - Craft
@@ -40,18 +29,13 @@ TagManager:
   - RC
   - CC
   - CM
-  - RB0
-  - RB1
-  - RB2
-  - RB3
-  - RB4
-  - RB5
-  - RB6
-  - RB7
-  - RB8
   - BP
   - FM
   - fireplace
+  - BB
+  - BIT
+  - WM
+  - Fuse
   layers:
   - Default
   - TransparentFX

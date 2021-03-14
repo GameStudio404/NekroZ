@@ -10,9 +10,9 @@ using UnityEditor;
 //[ExecuteInEditMode()]
 public class ProgressBarTimer : MonoBehaviour
 {
-    public int begin, goal;
-    public Image mask;
-    public Text on, to, reach, fuse;
+    private int goal;
+    private Image mask;
+    private Text on, to, reach, fuse;
     private static float current;
     private float fill;
     private int toFuse;
@@ -20,14 +20,20 @@ public class ProgressBarTimer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        goal = 3;
-        begin = 0;
+        Image go = GetComponent<Image>();
+        mask = go.transform.GetChild(0).GetComponent<Image>();
+        on = go.transform.GetChild(1).GetComponent<Text>();
+        to = go.transform.GetChild(2).GetComponent<Text>();
+        reach = go.transform.GetChild(3).GetComponent<Text>();
+        fuse = GameObject.FindWithTag("Fuse").transform.GetChild(1).GetComponent<Text>();
+        //Debug.Log($"mask: {mask.name}, on: {on.text}, to: {to.text}, reach: {reach.text}, fuse: {fuse.name}");
     }
 
     // Update is called once per frame
     void Update()
     {
         toFuse = int.Parse(fuse.text);
+        goal = int.Parse(GameObject.FindWithTag("Fuse").transform.GetChild(2).GetComponent<Text>().text);
         if (toFuse > 0)
         {
             on.text = $"{Math.Round(current)}s";
@@ -35,7 +41,7 @@ public class ProgressBarTimer : MonoBehaviour
             to.text = $"{goal}s";
             fill = current / (float)goal;
         }
-        if (current < (float)goal)
+        if (current < (float)goal && toFuse > 0)
         {
             current += Time.deltaTime;
             GetFill();
@@ -51,13 +57,14 @@ public class ProgressBarTimer : MonoBehaviour
             fuse.text = toFuse.ToString();
             if (toFuse > 0)
             {
-                current = 0F;    
+                current = 0F;
             }
             else
             {
                 current = 0f;
                 on.text = "";
                 to.text = "";
+                goal = 0;
                 reach.text = "Done";
             }
         }

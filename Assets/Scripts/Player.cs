@@ -4,36 +4,62 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private string name;
-    private GameObject player;
-    private Dictionary<string, GameObject> players = new Dictionary<string, GameObject>();
+    private string firstName;
+    private Vector3 positions;
+    private Sprite sprite;
+    //    private Dictionary<string, GameObject> players = new Dictionary<string, GameObject>();
 
-    public void addPlayers(string name, GameObject player)
+    public Player(string newName, Vector3 pos, Sprite s)
     {
-        players.Add(name, player);
+        firstName = newName;
+        positions = pos;
+        sprite = s;
+        Debug.Log($"Player {firstName} created");
     }
 
-    public Dictionary<string, GameObject> getPlayers()
+    public string GetName()
     {
-        return players;
+        return firstName;
     }
 
-    public GameObject getPlayer(string name)
+    public Vector3 GetPositions()
     {
-        Debug.Log(name);
-        return players[name];
+        return positions;
     }
 
-    public Player(string newName, GameObject newPlayer)
+    public Sprite GetSprite()
     {
-        name = newName;
-        player = newPlayer;
-        Debug.Log($"Player {name} created");
-        addPlayers(name, player);
+        return sprite;
     }
 
-    public GameObject getPlayer()
+    public void SetName(string n)
     {
-        return player;
+        firstName = n;
     }
+
+    public void SetPositions(Vector3 p)
+    {
+        positions = p;
+    }
+
+    public void SetSprite(Sprite s)
+    {
+        sprite = s;
+    }
+
+    //public void addPlayers(string name, GameObject player)
+    //{
+    //    players.Add(name, player);
+    //}
+
+    //public Dictionary<string, GameObject> getPlayers()
+    //{
+    //    return players;
+    //}
+
+    //public GameObject getPlayer(string name)
+    //{
+    //    Debug.Log(name);
+    //    return players[name];
+    //}
 }
